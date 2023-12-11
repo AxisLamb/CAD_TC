@@ -1,0 +1,83 @@
+# 用户
+
+# 次数（拼接名称）
+Count: 32
+FlightNo: "CPA711"
+FlightNo2: "CPA712"
+FlightNo3: "CPA713"
+FlightNo4: "CPA714"
+FlightNo5: "CPA715"
+FlightNo6: "CPA716"
+FlightNo7: "CPA717"
+FlightNo8: "CPA718"
+FlightNo9: "CPA719"
+
+AircraftType1: "100"
+AircraftType2: "100"
+AircraftType3: "100"
+AircraftType4: "100"
+AircraftType5: "100"
+AircraftType6: "100"
+AircraftType7: "100"
+AircraftType8: "100"
+
+NoofSeats1: "200"
+NoofSeats2: "200"
+NoofSeats3: "200"
+NoofSeats4: "200"
+NoofSeats5: "200"
+NoofSeats6: "200"
+NoofSeats7: "200"
+NoofSeats8: "200"
+
+Route1: "HKG-LAX"
+Route2: "LAX-HKG"
+Route3: "HKG-LAX"
+Route4: "LAX-HKG"
+Route5: "HKG-LAX"
+Route6: "LAX-HKG"
+Route7: "HKG-LAX"
+Route8: "LAX-HKG"
+
+STD1: "1030"
+STA2: "1630"
+STD3: "1030"
+STA4: "1630"
+STD5: "1030"
+STA6: "1630"
+STD7: "1030"
+STA8: "1630"
+
+Remarks: "UAT End2End Testing"
+
+Doc_Type_Other_Input: "Other"
+
+TemplateName: "041TestCase_"
+Description: "Description"
+
+DetailAircraft_Input_1: "141"
+DetailSeats_1: "0"
+DetailSTD_1: "1630"
+DetailRemark_1: "Test for update"
+
+LeaseAirLessorOptICAO_Input: "HDA"
+LeaseAirDocType_Input: "Government Approval (Lessee)"
+LeaseAirRegistrationMark: "HK2024"
+LeaseAirAircraftType_Input: "100"
+LeaseAirEnclosureRef: "End2End Test"
+LeaseAirRemark: "Testing"
+
+DetailUploadDocumentDocType_Input: "Other"
+DetailRemarksBTU_Input: "THIS IS A TESTING REMARKS WITH 250 CHARACTERS THIS IS A TESTING REMARKS WITH 250 CHARACTERS THIS IS A TESTING REMARKS WITH 250 CHARACTERS THIS IS A TESTING REMARKS WITH 250 CHARACTERS THIS IS A TESTING REMARKS WITH 250 CHARACTERS THIS IS A TESTING RE"
+DetailCADRemarksBTU_Input: "THIS IS A TESTING CAD REMARKS WITH 250 CHARACTERS THIS IS A TESTING CAD REMARKS WITH 250 CHARACTERS THIS IS A TESTING CAD REMARKS WITH 250 CHARACTERS THIS IS A TESTING CAD REMARKS WITH 250 CHARACTERS THIS IS A TESTING CAD REMARKS WITH 250 CHARACTERS!"
+
+GenerateOffPhone: "2345671"
+GenerateOffFax: "12345678"
+GenerateUserName: "UAT Tester"
+GeneratePost: "Tester"
+GenerateCompanyName: "UAT Testing company"
+GenerateSubOffName: "AS Officer"
+GenerateAddress_1: "Testing address 1"
+GenerateAddress_2: "Testing address 2"
+GenerateAddress_3: "Testing address 3"
+GenerateSignedArea: "Testing test"

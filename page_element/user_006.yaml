@@ -1,0 +1,31 @@
+Logout: "xpath==//i[contains(@class, 'el-icon-caret-bottom')]"
+Logout_Yes: "xpath==//span[contains(.,' Yes')]"
+
+Login_Username: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div[1]/div[2]/div/div/div/input"
+Name: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div[1]/div[3]/div/div/div/input"
+Email_Address: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div[1]/div[6]/div/div/div[1]/textarea"
+
+Save: "xpath==//button[contains(span,'Save')]"
+Save_OK: "xpath==//button[contains(span,'OK')]"
+Reset_Password: "xpath==//button[contains(span,'Reset Password')]"
+Reset_OK: "xpath==//button[contains(span,'OK')]"
+Add: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div[2]/button[2]"
+Name2: "xpath==//*[@id='app']/div/div/section/div/div[2]/div/div[2]/form/div[1]/div/div/div/input"
+Description: "xpath==//*[@id='app']/div/div/section/div/div[2]/div/div[2]/form/div[2]/div/div/div/input"
+Search: "xpath==//*[@id='app']/div/div/section/div/div[2]/div/div[2]/form/div[3]/div/button[2]"
+
+Search_Result_Item: "xpath==//*[@id='app']/div/div/section/div/div[2]/div/div[2]/div[1]/div[1]/div[3]/table/tbody/tr/td[1]/div/label/span/span"
+
+Add2: "xpath==//*[@id='app']/div/div/section/div/div[2]/div/div[2]/div[2]/button"
+Add2_OK: "xpath==/html/body/div[2]/div/div[3]/button"
+
+External2: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div/label[2]/span[1]/span"
+Login_Username2: "xpath==//*[@id='app']/div/div/section/div/form/div[2]/div/div/div/input"
+Search2: "xpath==//button[contains(span,'Search')]"
+Total_Pages: "xpath==//*[@id='app']/div/div/section/div/div[2]/div/div/button[3]"
+Change_Yes: "xpath==/html/body/div[2]/div/div[3]/button"
+Old_Password: "xpath==//*[@id='app']/div/div/section/div/form/div[4]/div/div/div/input"
+New_Password: "xpath==//*[@id='app']/div/div/section/div/form/div[5]/div/div/div/input"
+Confirm_New_Password: "xpath==//*[@id='app']/div/div/section/div/form/div[6]/div/div/div/input"
+Save2: "xpath==//*[@id='app']/div/div/section/div/form/div[7]/div[2]/button"
+Save2_OK: "xpath==/html/body/div[2]/div/div[3]/button"

@@ -1,0 +1,9 @@
+# Test User Values
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+
+# New Service Type
+ServiceType: "Z"
+EnglishDescription: "UAT Service Type Test 01"
+CustomizedServiceTypeDescription: "UAT Test 01"
+Remarks: "UAT Remarks Test 01"

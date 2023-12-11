@@ -1,0 +1,9 @@
+#Test Values
+Officer_LoginName: "OFFICER1"
+Officer_Password: "12345678a"
+Description: "Message for auto alert for non-office hour"
+Value: "non-office hour application submission detected , test only"
+Start_Date: "01/10/2023"
+End_Date: "01/10/2023"
+Description2: "The day following National Day"
+Alert_Message: "Today is Hong Kong Public holiday:  The day following National Day"

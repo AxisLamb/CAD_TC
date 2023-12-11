@@ -1,0 +1,12 @@
+# Test User Values
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+
+# new Country
+CountryCode: "Cmn"
+EnglishDescription: "UAT Country Name Test 01"
+ChineseDescription: "UAT国家测试1"
+Remarks: "UAT Remarks Test 01"
+
+# Application
+RouteBy: "City"

@@ -1,0 +1,34 @@
+# Test Values
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+CpaOfficerLoginName: "CPATEST03"
+CpaOfficerPassword: "12345678a"
+
+DetailAircraft_Input_1: "141"
+DetailSeats_1: "0"
+DetailSTD_1: "1630"
+DetailRemark_1: "Test for update"
+
+LeaseAirLessorOptICAO_Input: "HDA"
+LeaseAirDocType_Input: "Government Approval (Lessee)"
+LeaseAirRegistrationMark: "HK2025"
+LeaseAirAircraftType_Input: "141"
+LeaseAirEnclosureRef: "End2End Test"
+LeaseAirRemark: "Testing"
+
+DetailUploadDocumentDocType_Input: "Others"
+MessageRemarks: "THIS IS A TESTING REMARKS WITH 250 CHARACTERS THIS IS A TESTING REMARKS WITH 250 CHARACTERS THIS IS A TESTING REMARKS WITH 250 CHARACTERS THIS IS A TESTING REMARKS WITH 250 CHARACTERS THIS IS A TESTING REMARKS WITH 250 CHARACTERS THIS IS A TESTING RE"
+DetailCADRemarksBTU_Input: "THIS IS A TESTING CAD REMARKS WITH 250 CHARACTERS THIS IS A TESTING CAD REMARKS WITH 250 CHARACTERS THIS IS A TESTING CAD REMARKS WITH 250 CHARACTERS THIS IS A TESTING CAD REMARKS WITH 250 CHARACTERS THIS IS A TESTING CAD REMARKS WITH 250 CHARACTERS!"
+
+
+# Template Generate
+GenerateOffPhone: "22968813"
+GenerateOffFax: "22968814"
+GenerateUserName: "UAT Tester"
+GeneratePost: "Tester"
+GenerateCompanyName: "UAT Testing company"
+GenerateSubOffName: "AS Officer"
+GenerateAddress_1: "Testing address 1"
+GenerateAddress_2: "Testing address 2"
+GenerateAddress_3: "Testing address 3"
+GenerateSignedArea: "Testing test"

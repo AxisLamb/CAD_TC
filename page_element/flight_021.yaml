@@ -1,0 +1,331 @@
+Logout: "xpath==//i[contains(@class, 'el-icon-caret-bottom')]"
+Logout_Yes: "xpath==//span[contains(.,'Yes')]"
+
+#表单
+Operator(ICAO)_input: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[2]/div[1]/div/div/div/div[1]/input"
+Operator(ICAO)_select: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[2]/div[1]/div/div/div/div[1]/span/span/i"
+
+Registration_mark: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[4]/div[1]/div/div/input"
+
+Aircraft_type_input: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[5]/div[1]/div/div/div/div[1]/input"
+Aircraft_type_select: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[5]/div[1]/div/div/div/div[1]/span/span/i"
+
+Aircraft_nationality_input: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[5]/div[2]/div/div/div/div[1]/input"
+Aircraft_nationality_select: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[5]/div[2]/div/div/div/div[1]/span/span/i"
+
+Name_of_charterer: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[6]/div/div/div/input"
+Address_of_charterer: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[7]/div/div/div/textarea"
+
+Local_handling_agent_input: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[8]/div/div/div[1]/div[1]/input"
+Local_handling_agent_select: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[8]/div/div/div[1]/div[1]/span/span/i"
+
+Purpose_of_service: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[9]/div/div/div/input"
+Points_of_landing: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[10]/div/div/div/input"
+
+#表格
+
+# line1
+Service_Type_input: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[2]/div/span/div/div[1]/input"
+Service_Type_select: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[2]/div/span/div/div[1]/span/span/i"
+FlightNo: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[3]/div/span/div/input"
+From: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[5]/div/span/div/input"
+To: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[6]/div/span/div/input"
+DOP_1: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[7]/div/span/div/label/span[1]/span"
+DOP_2: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[8]/div/span/div/label/span[1]/span"
+DOP_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[9]/div/span/div/label/span[1]/span"
+DOP_4: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[10]/div/span/div/label/span[1]/span"
+DOP_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[11]/div/span/div/label/span[1]/span"
+DOP_6: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[12]/div/span/div/label/span[1]/span"
+DOP_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[13]/div/span/div/label/span[1]/span"
+No_of_Pax: "xpath==//*[@id='inputlimit00']"
+Port_From: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[15]/div/span/div/input"
+Port_To:   "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[16]/div/span/div/input"
+LocalTime_STA: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[17]/div/span/div/input"
+LocalTime_STD: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[18]/div/span/div/input"
+Table_Remarks: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[1]/td[19]/div/span/div/textarea"
+# line2
+Service_Type_input_2: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[2]/td[1]/div/span/div/div[1]/input"
+Service_Type_select_2: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[2]/td[1]/div/span/div/div[1]/span/span/i"
+FlightNo_2: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[2]/td[2]/div/span/div/input"
+No_of_Pax_2: "xpath==//*[@id='inputlimit01']"
+Port_From_2: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[2]/td[14]/div/span/div/input"
+Port_To_2:   "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[2]/td[15]/div/span/div/input"
+LocalTime_STA_2: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[2]/td[16]/div/span/div/input"
+LocalTime_STD_2: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[2]/td[17]/div/span/div/input"
+Table_Remarks_2: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[2]/td[18]/div/span/div/textarea"
+
+
+# line3
+Service_Type_input_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[2]/div/span/div/div[1]/input"
+Service_Type_select_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[2]/div/span/div/div[1]/span/span/i"
+FlightNo_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[3]/div/span/div/input"
+From_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[5]/div/span/div/input"
+To_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[6]/div/span/div/input"
+DOP_1_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[7]/div/span/div/label/span[1]/span"
+DOP_2_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[8]/div/span/div/label/span[1]/span"
+DOP_3_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[9]/div/span/div/label/span[1]/span"
+DOP_4_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[10]/div/span/div/label/span[1]/span"
+DOP_5_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[11]/div/span/div/label/span[1]/span"
+DOP_6_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[12]/div/span/div/label/span[1]/span"
+DOP_7_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[13]/div/span/div/label/span[1]/span"
+No_of_Pax_3: "xpath==//*[@id='inputlimit02']"
+Port_From_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[15]/div/span/div/input"
+Port_To_3:   "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[16]/div/span/div/input"
+LocalTime_STA_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[17]/div/span/div/input"
+LocalTime_STD_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[18]/div/span/div/input"
+Table_Remarks_3: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[3]/td[19]/div/span/div/textarea"
+# line4
+Service_Type_input_4: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[4]/td[1]/div/span/div/div[1]/input"
+Service_Type_select_4: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[4]/td[1]/div/span/div/div[1]/span/span/i"
+FlightNo_4: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[4]/td[2]/div/span/div/input"
+No_of_Pax_4: "xpath==//*[@id='inputlimit03']"
+Port_From_4: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[4]/td[14]/div/span/div/input"
+Port_To_4:   "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[4]/td[15]/div/span/div/input"
+LocalTime_STA_4: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[4]/td[16]/div/span/div/input"
+LocalTime_STD_4: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[4]/td[17]/div/span/div/input"
+Table_Remarks_4: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[4]/td[18]/div/span/div/textarea"
+
+# line5
+Service_Type_input_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[2]/div/span/div/div[1]/input"
+Service_Type_select_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[2]/div/span/div/div[1]/span/span/i"
+FlightNo_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[3]/div/span/div/input"
+From_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[5]/div/span/div/input"
+To_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[6]/div/span/div/input"
+DOP_1_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[7]/div/span/div/label/span[1]/span"
+DOP_2_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[8]/div/span/div/label/span[1]/span"
+DOP_3_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[9]/div/span/div/label/span[1]/span"
+DOP_4_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[10]/div/span/div/label/span[1]/span"
+DOP_5_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[11]/div/span/div/label/span[1]/span"
+DOP_6_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[12]/div/span/div/label/span[1]/span"
+DOP_7_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[13]/div/span/div/label/span[1]/span"
+No_of_Pax_5: "xpath==//*[@id='inputlimit04']"
+Port_From_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[15]/div/span/div/input"
+Port_To_5:   "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[16]/div/span/div/input"
+LocalTime_STA_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[17]/div/span/div/input"
+LocalTime_STD_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[18]/div/span/div/input"
+Table_Remarks_5: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[5]/td[19]/div/span/div/textarea"
+# line6
+Service_Type_input_6: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[6]/td[1]/div/span/div/div[1]/input"
+Service_Type_select_6: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[6]/td[1]/div/span/div/div[1]/span/span/i"
+FlightNo_6: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[6]/td[2]/div/span/div/input"
+In_Out_Diff_input_6: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[6]/td[3]/div/div/div[1]/input"
+In_Out_Diff_select_6: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[6]/td[3]/div/div/div[1]/span/span/i"
+No_of_Pax_6: "xpath==//*[@id='inputlimit05']"
+Port_From_6: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[6]/td[14]/div/span/div/input"
+Port_To_6:   "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[6]/td[15]/div/span/div/input"
+LocalTime_STA_6: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[6]/td[16]/div/span/div/input"
+LocalTime_STD_6: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[6]/td[17]/div/span/div/input"
+Table_Remarks_6: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[6]/td[18]/div/span/div/textarea"
+
+# line7
+Service_Type_input_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[2]/div/span/div/div[1]/input"
+Service_Type_select_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[2]/div/span/div/div[1]/span/span/i"
+FlightNo_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[3]/div/span/div/input"
+From_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[5]/div/span/div/input"
+To_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[6]/div/span/div/input"
+DOP_1_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[7]/div/span/div/label/span[1]/span"
+DOP_2_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[8]/div/span/div/label/span[1]/span"
+DOP_3_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[9]/div/span/div/label/span[1]/span"
+DOP_4_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[10]/div/span/div/label/span[1]/span"
+DOP_5_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[11]/div/span/div/label/span[1]/span"
+DOP_6_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[12]/div/span/div/label/span[1]/span"
+DOP_7_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[13]/div/span/div/label/span[1]/span"
+No_of_Pax_7: "xpath==//*[@id='inputlimit06']"
+Port_From_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[15]/div/span/div/input"
+Port_To_7:   "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[16]/div/span/div/input"
+LocalTime_STA_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[17]/div/span/div/input"
+LocalTime_STD_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[18]/div/span/div/input"
+Table_Remarks_7: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[7]/td[19]/div/span/div/textarea"
+# line8
+Service_Type_input_8: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[8]/td[1]/div/span/div/div[1]/input"
+Service_Type_select_8: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[8]/td[1]/div/span/div/div[1]/span/span/i"
+FlightNo_8: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[8]/td[2]/div/span/div/input"
+No_of_Pax_8: "xpath==//*[@id='inputlimit07']"
+Port_From_8: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[8]/td[14]/div/span/div/input"
+Port_To_8:   "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[8]/td[15]/div/span/div/input"
+LocalTime_STA_8: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[8]/td[16]/div/span/div/input"
+LocalTime_STD_8: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[8]/td[17]/div/span/div/input"
+Table_Remarks_8: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[8]/td[18]/div/span/div/textarea"
+
+# line9
+Service_Type_input_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[2]/div/span/div/div[1]/input"
+Service_Type_select_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[2]/div/span/div/div[1]/span/span/i"
+FlightNo_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[3]/div/span/div/input"
+From_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[5]/div/span/div/input"
+To_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[6]/div/span/div/input"
+DOP_1_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[7]/div/span/div/label/span[1]/span"
+DOP_2_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[8]/div/span/div/label/span[1]/span"
+DOP_3_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[9]/div/span/div/label/span[1]/span"
+DOP_4_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[10]/div/span/div/label/span[1]/span"
+DOP_5_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[11]/div/span/div/label/span[1]/span"
+DOP_6_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[12]/div/span/div/label/span[1]/span"
+DOP_7_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[13]/div/span/div/label/span[1]/span"
+No_of_Pax_9: "xpath==//*[@id='inputlimit08']"
+Port_From_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[15]/div/span/div/input"
+Port_To_9:   "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[16]/div/span/div/input"
+LocalTime_STA_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[17]/div/span/div/input"
+LocalTime_STD_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[18]/div/span/div/input"
+Table_Remarks_9: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[9]/td[19]/div/span/div/textarea"
+# line10
+Service_Type_input_10: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[10]/td[1]/div/span/div/div[1]/input"
+Service_Type_select_10: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[10]/td[1]/div/span/div/div[1]/span/span/i"
+FlightNo_10: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[10]/td[2]/div/span/div/input"
+No_of_Pax_10: "xpath==//*[@id='inputlimit09']"
+Port_From_10: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[10]/td[14]/div/span/div/input"
+Port_To_10:   "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[10]/td[15]/div/span/div/input"
+LocalTime_STA_10: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[10]/td[16]/div/span/div/input"
+LocalTime_STD_10: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[10]/td[17]/div/span/div/input"
+Table_Remarks_10: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/table/tbody/tr[10]/td[18]/div/span/div/textarea"
+
+Remarks: "xpath==//*[@id='app']/div/div/section/div/form/div[6]/div/textarea"
+
+Upload_Related_Documents: "xpath==//*[@id='app']/div/div/section/div/form/div[7]/div[1]/div[2]/button"
+Doc_Type_Select: "xpath==//*[@id='testNewDocumentUpload']"
+Doc_Type_Input: "xpath==//*[@id='testNewDocumentUpload']"
+BrowseButton: "xpath==//*[@id='testBrowse']"
+UploadButton: "xpath==//*[@id='testUploadButton']"
+
+Click_Condition: "xpath==//*[@id='app']/div/div/section/div/form/div[10]/div/label/span/span"
+
+# step 02
+Save_AS_Draft: "xpath==//*[@id='app']/div/div/section/div/form/div[11]/div[1]/button[1]"
+# step 03
+Save_AS_Template: "xpath==//*[@id='app']/div/div/section/div/form/div[11]/div[1]/button[2]"
+Template_Name: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div[2]/form/div[1]/div[1]/div/div/div/input"
+Template_Description: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div[2]/form/div[1]/div[3]/div/div/div/input"
+Template_Save: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div[2]/div/button[2]"
+# step 04
+Preview_And_Submit: "xpath==//*[@id='app']/div/div/section/div/form/div[11]/div[2]/button[2]"
+# step 05
+
+# step 06
+Back_And_Modify: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/div/div[1]/form/div/div[2]/div[8]/div[1]/button"
+# step 07
+Click_Submit: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/div/div[1]/form/div/div[2]/div[8]/div[2]/button[3]"
+# step 08
+#Click_YES_01: "xpath==//button[@class='el-button el-button--default el-button--small el-button--primary testConfirmButtonClass012']"
+Click_YES_01: "xpath==//button[contains(@class, 'testConfirmButtonClass012')]"
+
+# step 10
+
+# step 11
+Advanced_Search: "xpath==//*[@id='testAdvancedSearch09']"
+Sender:  "xpath==//*[@id='app']/div/div/section/div/div[6]/div[1]/form/div[3]/div/div/div/input"
+RefNo:  "xpath==//*[@id='app']/div/div/section/div/div[6]/div[1]/form/div[2]/div[2]/div/div/div[1]/input"
+Charter_Passenger:  "xpath==//*[@id='app']/div/div/section/div/div[6]/div[1]/form/div[5]/div/div/div/label[3]/span[1]/span"
+Search:  "xpath==//*[@id='app']/div/div/section/div/div[6]/div[1]/form/div[6]/div[2]/div/div/button[2]"
+Open_Message: "xpath==//*[@id='app']/div/div/section/div/div[6]/div[2]/div[3]/table/tbody/tr[1]/td[4]/div/a[1]"
+#Open_Message: "xpath==//*[@id='app']/div/div/section/div/div[6]/div[2]/div[3]/table/tbody/tr[1]/td[4]/div/a[2]"
+
+# step 12
+Message_Ref_No: "xpath==//*[@id='app']/div/div/section/div/div[8]/div[1]/div/div[2]/form/div[5]/div/div/a"
+# todo 测试专用
+Message_Ref_No_test: "xpath==//*[@id='app']/div/div/section/div/div[6]/div[2]/div[3]/table/tbody/tr[1]/td[6]/div/a[1]/a/span/span[1]"
+# step 14
+Modify_Button: "xpath==//button[contains(span,'Modify')]"
+Save_Button: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[18]/div[1]/button[5]"
+Record_Save: "xpath==//button[contains(span,'OK')]"
+# step 15
+Modify_Registration_Mark: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[1]/div/div/form/div/div[4]/div[1]/div/div/input"
+Modify_Name_Of_Charterer: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[1]/div/div/form/div/div[6]/div/div/div/input"
+Modify_Address_Of_Charterer: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[1]/div/div/form/div/div[7]/div/div/div/textarea"
+Modify_Local_Handing_Agent_Input: "//*[@id='app']/div/div/section/div/div[1]/form/div/div[1]/div/div/form/div/div[8]/div/div/div[1]/div/input"
+Modify_Local_Handing_Agent_Select: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[1]/div/div/form/div/div[8]/div/div/div[1]/div/span/span/i"
+Modify_Purpose_Of_Service: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[1]/div/div/form/div/div[9]/div/div/div/input"
+# step 16
+Check_Licence_Select_Record: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[5]/div[3]/table/tbody/tr[1]/td[1]/div/label/span/span"
+Check_Licence_Button: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[7]/button[1]"
+# step 17
+Check_Traffic_Right_Button: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[8]/button[2]"
+Check_Traffic_Right_Close: "xpath==/html/body/div[3]/div/div[1]/button"
+# step 18
+# step 19
+Upload_Button: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[10]/div/div[3]/table/tbody/tr/td[8]/div/div/button/span"
+Lease_Aircraft_Button: "xpath==//*[@id='app']/div/div/section/div/div[12]/div/div[2]/div/div/button[2]/span"
+Upload_Document_Lessor_Operator_Input: "xpath==//*[@id='app']/div/div/section/div/div[13]/div[1]/div/div[2]/form/div[6]/div[1]/div/div/div/div[1]/input"
+Upload_Document_Lessor_Operator_Select: "xpath==//*[@id='app']/div/div/section/div/div[13]/div[1]/div/div[2]/form/div[6]/div[1]/div/div/div/div[1]/span/span/i"
+Upload_Document_Type_Input: "xpath==//*[@id='app']/div/div/section/div/div[13]/div[1]/div/div[2]/form/div[7]/div/div/div/div/div/div[1]/input"
+Upload_Document_Type_Select: "xpath==//*[@id='app']/div/div/section/div/div[13]/div[1]/div/div[2]/form/div[7]/div/div/div/div/div/div[1]/span/span/i"
+Upload_Document_Registration_Mark: "xpath==//*[@id='app']/div/div/section/div/div[13]/div[1]/div/div[2]/form/div[8]/div[1]/div/div/div/input"
+Upload_Document_Expiry_Date_Input: "xpath==//*[@id='app']/div/div/section/div/div[13]/div[1]/div/div[2]/form/div[9]/div/div/div/div/input"
+Upload_Document_Expiry_Date_Select: "xpath==//*[@id='app']/div/div/section/div/div[13]/div[1]/div/div[2]/form/div[9]/div/div/div/div/span[1]/i"
+Upload_Document_Enclosure: "xpath==//*[@id='app']/div/div/section/div/div[13]/div[1]/div/div[2]/form/div[12]/div/div/div/div/input"
+Upload_Document_Remarks: "xpath==//*[@id='app']/div/div/section/div/div[13]/div[1]/div/div[2]/form/div[13]/div/div/div/div/textarea"
+Upload_Document_Aircraft_Type_Input: "xpath==//*[@id='app']/div/div/section/div/div[13]/div[1]/div/div[2]/form/div[8]/div[2]/div/div/div/div[1]/input"
+Upload_Document_Aircraft_Type_Select: "xpath==//*[@id='app']/div/div/section/div/div[13]/div[1]/div/div[2]/form/div[8]/div[2]/div/div/div/div[1]/span/span/i"
+Upload_Click: "xpath==//*[@id='app']/div/div/section/div/div[13]/div[1]/div/div[2]/div[2]/div/button[2]/span"
+Upload_Click_OK: "xpath==/html/body/div[3]/div/div[3]/button"
+# step 20
+Select_From_Document_Library_Button: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[11]/div[2]/div/div[1]/button[1]"
+Select_From_Document_Library_Select_Record: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[11]/div[2]/div/div[3]/div/div[2]/div[1]/div[1]/div/div[3]/table/tbody/tr[2]/td[1]/div/label/span/span"
+Select_From_Document_Library_Confirm: "xpath==//button[contains(span,'Confirm')]"
+# step 21
+Upload_Application_related_Document_Button: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[11]/div[2]/div/div[1]/button[2]"
+Upload_Application_related_Document_Close: "xpath==/html/body/div[4]/div/div[1]/button"
+
+New_Doc_Type_Select: "xpath==//*[@id='testNewDocumentUpload']"
+New_Doc_Type_Input: "xpath==//*[@id='testNewDocumentUpload']"
+New_BrowseButton: "xpath==//*[@id='testBrowse']"
+New_Indefinite: "xpath==//*[@id='testIndefinite']/span[1]/span"
+Upload_Application_related_Document_Upload: "xpath==//*[@id='testUploadButton']"
+# step 22
+View_Uploaded_Documents: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[12]/div[1]/a/span"
+View_Uploaded_Documents_Close: "xpath==/html/body/div[6]/div/div[1]/button/i"
+# step 23
+Messaging: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[14]/a/span"
+Messaging_Text: "xpath==//*[@id='el-collapse-content-4549']/div/div/div[4]/div/textarea"
+Messaging_Send: "xpath==//*[@id='el-collapse-content-4549']/div/div/div[5]/button"
+# step 24
+Remarks_Button: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[15]/a/span"
+Remarks_Text: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[16]/div/textarea"
+# step 25
+CAD_Remarks: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[17]/div[1]/a/span"
+CAD_Remarks_Text: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[17]/div[2]/div/textarea"
+# step 26
+Auto_Counting_Frequency: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[19]/div[1]/button[2]"
+Auto_Counting_Frequency_Close: "xpath==//*[@id='app']/div/div/section/div/div[14]/div/div[3]/span/button"
+# step 27
+Print_Application: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div/div[19]/div[1]/button[4]"
+
+# step 28
+Approve: "xpath==//*[@id='testApproveCharter']"
+Approve_Proceed: "xpath==/html/body/div[6]/div/div[3]/button[2]"
+
+# step 29
+Generate: "xpath==//*[@id='testGenerate01']"
+# step 30
+Generate_And_Edit: "xpath==//*[@id='testGenerateAndEdit01']/span"
+Template_Office_Phone_No: "xpath==//*[@id='testOfficePhoneNo']"
+Template_Fax_No: "xpath==//*[@id='testOfficeFaxNo']"
+Template_User_Name: "xpath==//*[@id='testUserName']"
+Template_Post: "xpath==//*[@id='testPost']"
+Template_Company_Name: "xpath==//*[@id='testCompanyName']"
+Template_Address1: "xpath==//*[@id='testAddress01']"
+Template_Address2: "xpath==//*[@id='testAddress02']"
+Template_Address3: "xpath==//*[@id='testAddress03']"
+Template_Signed_Area: "xpath==//*[@id='testSignedArea']"
+Template_Ferry: "xpath==//*[@id='testFerry']"
+Template_RefreshPreview: "xpath==//*[@id='testRefreshPreview']/span"
+Template_Download_As_Word: "xpath==//*[@id='testdownload']/span"
+Template_Generate_PDF: "xpath==//*[@id='testGeneratePDF']/span"
+Template_Close: "xpath==/html/body/div[11]/div/div[1]/button/i"
+# step 31
+Send_Letter: "xpath==/html/body/div[7]/div/div[2]/div[1]/div/button[2]"
+#Send_letter_Close: "xpath==//button[@class='el-button el-button--default el-button--small el-button--primary testConfirmButtonClass02']"
+Send_letter_Close: "xpath==//button[contains(@class, 'testConfirmButtonClass02')]"
+Send_Letter_failed_ok: "xpath==/html/body/div[11]/div/div[3]/button/span"
+Send_letter_failed_Text: "xpath==/html/body/div[8]/div/div[2]/div[1]/div[2]/p"
+Discard: "xpath==//*[@id='testDiscard01']"
+Yes_After_Discard: "xpath==/html/body/div[11]/div/div[3]/button[2]/span"
+
+# step 32
+CPA_Advanced_Search:  "xpath==//*[@id='testAdvancedSearch09']"
+CPA_Sender:  "xpath==//*[@id='app']/div/div/section/div/div[3]/div[1]/form/div[3]/div/div/div/input"
+CPA_RefNo:  "xpath==//*[@id='app']/div/div/section/div/div[3]/div[1]/form/div[2]/div[2]/div/div/div[1]/input"
+CPA_Charter_Passenger:  "xpath==//*[@id='app']/div/div/section/div/div[3]/div[1]/form/div[5]/div/div/div/label[3]/span[1]/span"
+CPA_Search:  "xpath==//*[@id='app']/div/div/section/div/div[3]/div[1]/form/div[6]/div[2]/div/div/button[2]"
+CPA_Open_Message: "xpath==//*[@id='app']/div/div/section/div/div[3]/div[2]/div[3]/table/tbody/tr[1]/td[4]/div/a[1]"
+CPA_Message_Ref_No: "xpath==//*[@id='test0']"
+
+
+

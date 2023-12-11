@@ -1,0 +1,8 @@
+# Test User Values
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+
+# New Cancel Flight Reason
+Cancel_Flight_Reason: "HC1"
+English_Description: "UAT Helicopter Cancel reason Test 01"
+Remarks: "UAT Remarks Test 01"

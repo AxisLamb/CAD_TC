@@ -1,0 +1,14 @@
+# Test Values
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+CpaOfficerLoginName: "CPATEST03"
+CpaOfficerPassword: "12345678a"
+
+LoginUsername: "ASTESTER"
+Name: "ASTESTER"
+# Email of tester
+EmailAddress: "Jake.XH.Jia@pccw.com"
+Search_Name1: "AS_GEN"
+Search_Name2: "AS_USER"
+Search_Name3: "AS AOO"
+NewPassWord: "1234567a"

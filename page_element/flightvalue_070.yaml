@@ -1,0 +1,8 @@
+# Test Values
+Flight_CPA: "CPA"
+LoginName: "OFFICER1"
+Password: "12345678a"
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+CPAOfficerLoginName: "CPATEST03"
+CPAOfficerPassword: "12345678a"

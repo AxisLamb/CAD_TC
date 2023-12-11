@@ -1,0 +1,46 @@
+Logout: "xpath==//i[contains(@class, 'el-icon-caret-bottom')]"
+Logout_Yes: "xpath==//span[contains(.,'Yes')]"
+
+#Flight1
+FlightNo1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[2]/div/span/div/input"
+From1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[4]/div/span/div/input"
+To1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[5]/div/span/div/input"
+DOP1_1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[6]/div/span/div/label/span[1]/span"
+DOP1_2: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[7]/div/span/div/label/span[1]/span"
+DOP1_3: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[8]/div/span/div/label/span[1]/span"
+DOP1_5: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[10]/div/span/div/label/span[1]/span"
+DOP1_7: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[12]/div/span/div/label/span[1]/span"
+
+AircraftType_input1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[13]/div/span/div/div/input"
+AircraftType_Select1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[13]/div/span/div/div/span/span/i"
+NoofSeats1: "xpath==//*[@id='inputlimit00']"
+Route1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[15]/div/span/div/input"
+LocalTime_STD1: "xpath==//*[@id='std 0 1']"
+Remarks1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[20]/div/span/div/textarea"
+#Flight1_2
+FlightNo1_2: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[2]/td[1]/div/span/div/input"
+AircraftType_input1_2: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[2]/td[12]/div/span/div/div/input"
+AircraftType_Select1_2: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[2]/td[12]/div/span/div/div/span/span/i"
+NoofSeats1_2: "xpath==//*[@id='inputlimit01']"
+Route1_2: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[2]/td[14]/div/span/div/input"
+LocalTime_STA1_2: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[2]/td[15]/div/span/div/input"
+Remarks1_2: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[2]/td[19]/div/span/div/textarea"
+
+Remarks: "xpath==//*[@id='app']/div/div/section/div/form/div/div[6]/div/textarea"
+
+SaveAsTemplate: "xpath==//*[@id='app']/div/div/section/div/form/div/div[11]/div[1]/button[2]"
+TemplateName: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div[2]/form/div[1]/div[1]/div/div/div/input"
+Description: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div[2]/form/div[1]/div[3]/div/div/div/input"
+Template_Save: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div[2]/div/button[2]/span"
+
+Scheduled_Passenger_Check: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div/div[1]/label/span[1]/span"
+Template_Name_Input: "xpath==//*[@id='app']/div/div/section/div/form/div[2]/div/div/input"
+Search: "xpath==//button[contains(span, 'Search')]"
+
+Template_Edit: "xpath==//button[contains(span, 'Edit')]"
+Update_Template_Btn: "xpath==//div[contains(button, 'Update Template')]/button"
+Discard_Btn: "xpath==//button[contains(span, 'Discard')]"
+
+Template_Item_CheckBox: "xpath==//*[@id='app']/div/div/section/div/div[2]/div[1]/div[2]/table/thead/tr/th[1]/div/label/span/span"
+Copy_To_New_Application: "xpath==//button[contains(span, 'Copy To New Application')]"
+

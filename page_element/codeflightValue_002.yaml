@@ -1,0 +1,10 @@
+# Test User Values
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+
+# new item data
+BusinessPartyName: "*Business party Test 01"
+ContractPerson: "*Business party Test 01"
+# send
+Subject: "Subject for *Business party Test 01"
+Message: "Message for *Business party Test 01"

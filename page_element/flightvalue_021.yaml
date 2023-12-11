@@ -1,0 +1,20 @@
+# Test Values
+Flight_CPA: "CPA"
+
+Office_Phone_No: "22968813"
+Office_Fax_No: "22968814"
+User_Name: "CPA Tester"
+Post: "PCCW Tester"
+Address1: "Testing address 1"
+Address2: "Testing address 2"
+Address3: "Testing address 3"
+Ferry: "Template ferry testing"
+Signed_Area: "Testing test"
+
+Lessor_Operator_ICAO: "HDA"
+Document_Type: "Government Approval (Lessee)"
+Registration_Mark2: "HK2025"
+Aircraft_Type2: "A139"
+Expiry_Date: "21/12/2023"
+Enclosure_Reference: "End2End Test"
+Remarks2: "Testing"

@@ -1,0 +1,9 @@
+# Test User Values
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+
+#airline operator data
+OperatorCode(ICAO): "0OO1"
+OperatorCode(IATA): "0O1"
+OperatorName: "UAT Operator English name Test 01"
+Remarks: "UAT Remarks Test 01"

@@ -1,0 +1,14 @@
+# logout
+Logout: "xpath==//*[@id='app']/div/div/div[1]/div/div/div[2]/i[2]"
+Logout_Yes: "xpath==/html/body/div[2]/div/div[3]/button[2]"
+
+Search_Registration_Mark: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div[1]/div[1]/div/div/input"
+Search_BTU: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div[2]/button[2]"
+delete_BTU: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/form/div[4]/button[2]"
+delete_BTU_Y: "xpath==/html/body/div[2]/div/div[3]/button[2]"
+add_BTU: "xpath==//*[@id='app']/div/div/section/div/div[1]/form/div[2]/button[3]"
+Create_Registration_Mark: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/form/div[1]/div[1]/div/div/div/input"
+Create_Operator_ICAO: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/form/div[1]/div[4]/div/div/div/input"
+Create_Aircrarft_Type_IATA: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/form/div[1]/div[5]/div/div/div/input"
+Save_BTU: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/form/div[4]/button[3]"
+OK_BTU: "xpath==/html/body/div[2]/div/div[3]/button"

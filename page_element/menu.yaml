@@ -1,0 +1,4 @@
+#菜单
+顶部菜单: "xpath==//li[@class='menu__item' and contains(text(),'$')]"
+二级菜单: "xpath==//div[@class='menu__submenu-title' and contains(span, '$')]/parent::li"
+三级菜单: "xpath==//li[contains(text(),'$')]"

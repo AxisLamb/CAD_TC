@@ -1,0 +1,18 @@
+OfficerLoginName: "PCCWTEST1"
+OfficerPassword: "2345678a"
+CpaOfficerLoginName: "CPATESTER"
+CpaOfficerPassword: "12345678a"
+
+OperatorcpaLoginName: "OPERATORCPA"
+OperatorcpaPassword: "12345678a"
+
+CpaOfficerLoginName_87: "CPATESTCODE03"
+CpaOfficerPassword_87: "12345678a"
+SiaOfficerLoginName: "SIAOPER03"
+SiaOfficerPassword: "12345678a"
+
+Officer2LoginName: "OFFICER2"
+Officer2Password: "1234567a"
+
+TestLoginName: "8AATEST03"
+TestPassword: "12345678a"

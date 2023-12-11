@@ -1,0 +1,11 @@
+# Add Service Type
+AddButton: "xpath==//*[@id='app']/div/div/section/div/div[2]/button[2]/span"
+ServiceType: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div/div[2]/form/div[1]/div/div/input"
+EnglishDescription: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div/div[2]/form/div[2]/div/div/textarea"
+CustomizedServiceTypeDescription: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div/div[2]/form/div[4]/div/div/input"
+Remarks: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div/div[2]/form/div[6]/div/div/textarea"
+SaveButton: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div/div[2]/div[1]/div[2]/button[3]/span"
+
+# Delete Service Type
+DeleteButton: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div/div[2]/div[1]/div[2]/button[2]/span"
+DeleteYesButton: "xpath==/html/body/div[2]/div/div[3]/button[2]/span"

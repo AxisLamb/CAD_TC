@@ -1,0 +1,17 @@
+# Test Values
+Officer_LoginName: "OFFICER1"
+Officer_Password: "12345678a"
+
+#Create User Account
+Operator : "HON"
+LoginUsername : "EXTERNAL"
+Name : "UAT External Tester"
+Post : "UAT External Operator"
+EmailAddress : "kenmsteams@gmail.com"
+PhoneNo : "22951234"
+FaxNo : "22951235"
+Address1 : "PCCW Solutions"
+Address2 : "Level 1, The Long Beach Commercial Podium"
+Address3 : "8 Hoi Fai Rd, Tai Kok Tsui"
+FunctionGroup : "OPTR"
+NewPassword : "12345678a"

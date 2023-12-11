@@ -1,0 +1,12 @@
+# Test Values
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+
+#Add
+AddDocumentType: "Airworthiness Review Certificate"
+AddOperator(ICAO): "CPA"
+AddSubjectOfficer: "Officer1"
+AddNoOfDaysBeforeExpiry: "100"
+
+#modify
+ModifyNoOfDaysBeforeExpiry: "1"

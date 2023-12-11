@@ -1,0 +1,15 @@
+# Add Service Type
+AddButton: "xpath==//button[contains(span,'Add')]"
+Cancel_Flight_Reason: "xpath==/html/body/div[1]/div/div/section/div/div[2]/div/div/div[2]/form/div[1]/div/div/input"
+English_Description: "xpath==/html/body/div[1]/div/div/section/div/div[2]/div/div/div[2]/form/div[2]/div/div/textarea"
+Remarks: "xpath==/html/body/div[1]/div/div/section/div/div[2]/div/div/div[2]/form/div[3]/div/div/textarea"
+SaveButton: "xpath==//button[contains(span,'Save')]"
+
+# Delete Service Type
+DeleteButton: "xpath==//button[contains(span,'Delete')]"
+DeleteYesButton: "xpath==//button[contains(span,'Yes')]"
+DeleteYesOKBtn: "xpath==//button[contains(span,'OK')]"
+Logout: "xpath==//*[@id='app']/div/div/div[1]/div/div/div[2]/i[2]"
+Logout_Yes: "xpath==//span[contains(.,'Yes')]"
+
+Item: "xpath=="

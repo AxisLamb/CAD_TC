@@ -1,0 +1,24 @@
+# 用户
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+OperatorcpaLoginName: "OPERATORCPA"
+OperatorcpaPassword: "12345678a"
+# Test Values
+Flight_CPA: "CPA"
+Flight_No: "003"
+
+AircraftType_input_A1: "77F"
+CargoCapacityKg_input_A1: "2000"
+Route_A1: "HKG-SIN"
+LocalTime_STD_A1: "1030"
+
+AircraftType_input_A2: "77F"
+CargoCapacityKg_input_A2: "2000"
+Route_A2: "SIN-HKG"
+LocalTime_STA_A2: "1630"
+Remarks: "UAT End2End Testing"
+Doc_Type_Input: "Others"
+
+Ports: "HKG"
+Step01_Description: "Hong Kong Intl Airport"
+Countries: "Singapore"

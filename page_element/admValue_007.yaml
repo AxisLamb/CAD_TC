@@ -1,0 +1,6 @@
+# Test Values
+LoginName: "OFFICER1"
+Password: "12345678a"
+CpaOfficerLoginName: "CPATEST03"
+CpaOfficerPassword: "12345678a"
+# these values need to update everytime when running the test

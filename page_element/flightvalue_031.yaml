@@ -1,0 +1,8 @@
+# Test Values
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+CpaOfficerLoginName: "CPATEST03"
+CpaOfficerPassword: "12345678a"
+# these two values need to update everytime when running the test
+FlightNo: "CPA1199"
+TemplateName: "CPA1199"

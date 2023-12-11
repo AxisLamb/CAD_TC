@@ -1,0 +1,13 @@
+# Test User Values
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+
+# new city
+CityCode: "CCT1"
+CountryCode: "AD"
+EnglishDescription: "City Code Test 01"
+Remarks: "Remarks for City Code Test 01"
+PortinCity: "1P1"
+
+# Application
+RouteBy: "City"

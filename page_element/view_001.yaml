@@ -1,0 +1,42 @@
+Logout: "xpath==//i[contains(@class, 'el-icon-caret-bottom')]"
+Logout_Yes: "xpath==//span[contains(.,'Yes')]"
+
+#Flight1
+FlightNo1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[2]/div/span/div/input"
+From1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[4]/div/span/div/input"
+To1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[5]/div/span/div/input"
+DOP1_6: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[11]/div/span/div/label/span[1]/span"
+AircraftType_input1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[13]/div/span/div/div/input"
+AircraftType_Select1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[13]/div/span/div/div/span/span/i"
+NoofSeats1: "xpath==//*[@id='inputlimit00']"
+Route1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[15]/div/span/div/input"
+LocalTime_STD1: "xpath==//*[@id='std 0 1']"
+Remarks1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[20]/div/span/div/textarea"
+
+Remarks: "xpath==//*[@id='app']/div/div/section/div/form/div/div[6]/div/textarea"
+Upload_Application_Related_Documents: "xpath==//button[contains(span, 'Upload application related document')]"
+Upload_Application_Related_Documents_Type_input: "xpath==//*[@id='testNewDocumentUpload']"
+Upload_Application_Related_Documents_Expiry_Date: "xpath==//*[@id='testExpiryDate']/input"
+Upload_Application_Related_Documents_Btn: "xpath==//*[@id='testUploadButton']"
+
+
+Confirm: "xpath==//*[@id='app']/div/div/section/div/form/div/div[10]/div/label/span/span"
+PreviewAndSubmit: "xpath==//button[contains(span, 'Preview and Submit')]"
+Submit: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/div/div[1]/form/div/div[3]/div[7]/div[2]/button[3]"
+Submit_No: "xpath==//button[contains(@class, 'testCancelButtonClass016')]"
+Special_Operation_No: "xpath==//button[contains(@class, 'testCancelButtonClass071')]"
+
+Scheduled_Passenger_Check: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div/div/label[1]/span[1]/span"
+Search: "xpath==//button[contains(span, 'Search')]"
+
+Scheduled_Passenger_Item: "xpath==//*[@id='app']/div/div/section/div/div[5]/div/div[3]/table/tbody/tr[1]/td[1]/div/label/span/span"
+Withdraw: "xpath==//button[contains(span, 'Withdraw')]"
+
+Withdraw_Scheduled_Passenger_Item: "xpath==//*[@id='app']/div/div/section/div/div[12]/div/div[2]/div/div[2]/table/thead/tr[1]/th[1]/div/label/span"
+Schedule_For_Withdraw: "xpath==//*[@id='app']/div/div/section/div/div[12]/div/div[3]/span/button[2]"
+Schedule_For_Withdraw_Yes: "xpath==//button[contains(span, 'Yes')]"
+Schedule_For_Withdraw_Discard: "xpath==//button[contains(span, 'Discard')]"
+
+Withdraw_Reference_No: "xpath==//*[@id='app']/div/div/section/div/div[5]/div/div[3]/table/tbody/tr[1]/td[4]/div/a/span/span"
+Withdraw_Reference_No_Officer1: "xpath==//*[@id='app']/div/div/section/div/div[5]/div/div[3]/table/tbody/tr[1]/td[5]/div/a/span/span"
+

@@ -1,0 +1,25 @@
+搜索框: "id==kw"
+候选: "css==.bdsug-overflow"
+搜索候选: "css==#form div li"
+搜索按钮: "id==su"
+
+# 选拔测试
+按钮: "xpath==//button[contains(span,'$')]"
+链接: "xpath==//a[contains(span,'$')]"
+查询按钮: "xpath==//button[contains(span,'查询')]"
+重置按钮: "xpath==//button[contains(span,'重置')]"
+查询框: "xpath==//div[@class='top-query']//div[contains(label,'$')]/div//input"
+文本域查询框: "xpath==//div[@class='top-query']//div[contains(label,'$')]/div//textarea"
+专家人才库查询下拉: "xpath==//div[@class='select__selection']"
+专家人才库查询框: "xpath==//div[@class='top-query']//input[@placeholder='请输入与左侧已选条件匹配的内容']"
+专家人才库查询下拉选项: "xpath==//li[@class='select__item' and contains(a,'$')]"
+专家人才库表格链接: "xpath==//div[@class='table__cell']/div/a[text() = '$']"
+专家人才库详情定位: "xpath==//div[text() = '$']"
+流程标题输入框: "xpath==//input[@placeholder='$']"
+流程概述输入框: "xpath==//textarea[@placeholder='$']"
+流程选人: "xpath=//div[contains(span,'$')]/parent::*/parent::li"
+文件上传: "xpath==//input[@type='file']"
+专家人才库图表: "xpath==//div[contains(text(), '$')]//following-sibling::div//canvas"
+
+#菜单
+菜单: "xpath==//li[text()='$']"

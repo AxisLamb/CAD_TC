@@ -1,0 +1,68 @@
+AirplaceIcon: "xpath==//*[@id='app']/div/div/div[1]/div/div/div[2]/div"
+# basic information
+LocalGroundHandingAgent: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[1]/div/form[6]/div/div/div/input"
+CallSignRadioTelephony: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[1]/div/form[7]/div/div/div/input"
+# Contact details ..
+ContactName: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[2]/div/form[1]/div/div/div/input"
+ContactPost: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[2]/div/form[2]/div/div/div/input"
+ContactTel: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[2]/div/form[3]/div/div/div/input"
+ContactFax: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[2]/div/form[4]/div/div/div/input"
+ContactEmail: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[2]/div/form[5]/div/div/div/input"
+ContactAddress: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[2]/div/form[6]/div/div/div/input"
+
+#Addressee of Operating ..
+AddresseeName: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[3]/div/form[1]/div/div/div/input"
+AddresseePost: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[3]/div/form[2]/div/div/div/input"
+AddresseeTel: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[3]/div/form[3]/div/div/div/input"
+AddresseeFax: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[3]/div/form[4]/div/div/div/input"
+AddresseeEmail: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[3]/div/form[5]/div/div/div/input"
+AddresseeAddress: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[3]/div/form[6]/div/div/div/input"
+
+#Emergency local ..
+LocalName: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[4]/div/form[1]/div/div/div/input"
+LocalPost: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[4]/div/form[2]/div/div/div/input"
+LocalTel: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[4]/div/form[3]/div/div/div/input"
+LocalFax: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[4]/div/form[4]/div/div/div/input"
+LocalEmail: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[4]/div/form[5]/div/div/div/input"
+LocalAddress: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[4]/div/form[6]/div/div/div/input"
+
+#Emergency contact ..
+EmerContactName: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[5]/div/form[1]/div/div/div/input"
+EmerContactPost: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[5]/div/form[2]/div/div/div/input"
+EmerContactTel: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[5]/div/form[3]/div/div/div/input"
+EmerContactFax: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[5]/div/form[4]/div/div/div/input"
+EmerContactEmail: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[5]/div/form[5]/div/div/div/input"
+EmerContactAddress: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[5]/div/form[6]/div/div/div/input"
+EmerContactAftn: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[1]/div[1]/div[5]/div/form[7]/div/div/div/input"
+# save
+AirlineSave: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[2]/span/button[2]"
+AirlineExport: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[2]/div/div[2]/span/button[1]"
+
+#Fleet and Aircraft
+FleetButton: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[1]/label[2]"
+AddButton: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[3]/button[1]"
+IATAAircraftType_input: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[3]/div[3]/div/div[2]/div[1]/div/form[3]/div/div/div/div[1]/div/input"
+IATAAircraftType_select: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[3]/div[3]/div/div[2]/div[1]/div/form[3]/div/div/div/div[1]/div/span/span"
+RegistrationMark: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[3]/div[3]/div/div[2]/div[1]/div/form[4]/div/div/div/input"
+AirlineInternalCode: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[3]/div[3]/div/div[2]/div[1]/div/form[5]/div/div/div/input"
+CargoCapacity: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[3]/div[3]/div/div[2]/div[1]/div/form[6]/div/div/div/input"
+SeatCapacity: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[3]/div[3]/div/div[2]/div[1]/div/form[7]/div/div/div/input"
+Weight: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[3]/div[3]/div/div[2]/div[1]/div/form[8]/div/div/div/input"
+#Ownership: "xpath==
+Remarks: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[3]/div[3]/div/div[2]/div[1]/div/form[11]/div/div/div/textarea"
+FleetSave: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[3]/div[3]/div/div[3]/div/div[1]/button[2]"
+
+# Search
+OperatorCode_Input: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[1]/div[1]/form[1]/div/div/div/div[1]/input"
+OperatorCode_Select: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[1]/div[1]/form[1]/div/div/div/div[2]/span/span"
+AircraftType: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[1]/div[1]/form[2]/div/div/div/input"
+RegMark: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[1]/div[1]/form[3]/div/div/div/input"
+Search: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[1]/div[2]/button[2]"
+Update: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[3]/div[1]/div[3]/table/tbody/tr[2]/td[16]/div/button[1]"
+Remove: "xpath==//*[@id='app']/div/div/section/div/div/div[1]/div[3]/div/div[3]/div[1]/div[3]/table/tbody/tr[2]/td[16]/div/button[2]"
+RemoveIsOk: "xpath==/html/body/div[4]/div/div[3]/button[2]"
+
+# logout
+
+Logout: "xpath==//*[@id='app']/div/div/div[1]/div/div/div[2]/i[2]"
+Logout_Yes: "xpath==//span[contains(.,'Yes')]"

@@ -1,0 +1,19 @@
+# Create Country
+AddButton: "xpath==//*[@id='app']/div/div/section/div/div[5]/button[2]"
+RegionCode: "xpath==//*[@id='app']/div/div/section/div/div[6]/div/div/div[2]/form/div[2]/div/div/div/input"
+RegionCode_AF: "xpath==/html/body/div[3]/div[1]/div[1]/ul/li[1]"
+CountryCode: "xpath==//*[@id='app']/div/div/section/div/div[6]/div/div/div[2]/form/div[1]/div/div/input"
+EnglishDescription: "xpath==//*[@id='app']/div/div/section/div/div[6]/div/div/div[2]/form/div[3]/div/div/textarea"
+ChineseDescription: "xpath==//*[@id='app']/div/div/section/div/div[6]/div/div/div[2]/form/div[4]/div/div/textarea"
+Remarks: "xpath==//*[@id='app']/div/div/section/div/div[6]/div/div/div[2]/form/div[5]/div/div/textarea"
+SaveButton: "xpath==//*[@id='app']/div/div/section/div/div[6]/div/div/div[2]/div[1]/div[2]/button[3]"
+
+# Application Search City
+RouteBy: "xpath==//*[@id='app']/div/div/section/div/form/div[4]/div[1]/div/div/div[1]/div/input"
+ApplicationEnglishDescription: "xpath==//*[@id='app']/div/div/section/div/form/div[4]/div[1]/div/div/div[2]/div[1]/input"
+
+# Delete City
+SearchCityCode: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div/div/div[1]/input"
+SearchButton: "xpath==//*[@id='app']/div/div/section/div/div[1]/div/button[2]/span"
+DeleteButton: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div/div[2]/div[4]/div[2]/button[2]/span"
+DeleteYesButton: "xpath==/html/body/div[3]/div/div[3]/button[2]/span"

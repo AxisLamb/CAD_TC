@@ -1,0 +1,14 @@
+#Test Values
+Officer_LoginName: "OFFICER1"
+Officer_Password: "12345678a"
+Email_Address: "testcreate@pccw.com"
+TA_ADMIN_Name: "TA_ADMIN"
+TA_ADMIN_Description: "TA Admin Group"
+TA_USER_Name: "TA_USER"
+TA_USER_Description: "TA User Group"
+TA_RUSER_Name: "TA_RUSER"
+TA_RUSER_Description: "TA Restricted Group"
+TA_ASRPT_Name: "TA_ASRPT"
+TA_ASRPT_Description: "AS report for TA user"
+
+New_Password: "1234567a"

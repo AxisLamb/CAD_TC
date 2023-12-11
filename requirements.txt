@@ -1,0 +1,8 @@
+pytest~=7.4.2
+pytest-html
+allure-pytest
+PyYAML~=6.0.1
+selenium==3.9.0
+zmail~=0.2.8
+
+pywinauto~=0.6.8

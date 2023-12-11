@@ -1,0 +1,41 @@
+# Test Values
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+CpaOfficerLoginName: "CPATEST03"
+CpaOfficerPassword: "12345678a"
+
+# basic information
+LocalGroundHandingAgent: "CPA Handing Agent"
+CallSignRadioTelephony: "Cathay"
+# Contact details ..
+ContactName: "Augustus Tang"
+ContactPost: "CEO"
+ContactTel: "22957555"
+ContactFax: "22957551"
+ContactEmail: "enmsteams1@gmail.com"
+ContactAddress: "UAT Test1"
+
+#Addressee of Operating ..
+AddresseeName: "Beano Tang"
+AddresseePost: "CMO"
+AddresseeTel: "22957556"
+AddresseeFax: "22957552"
+AddresseeEmail: "enmsteams2@gmail.com"
+AddresseeAddress: "UAT Test2"
+
+#Emergency local ..
+LocalName: "Ada Tang"
+LocalPost: "COO"
+LocalTel: "22957557"
+LocalFax: "22957553"
+LocalEmail: "enmsteams3@gmail.com"
+LocalAddress: "UAT Test3"
+
+#Emergency contact ..
+EmerContactName: "Celcius Tang"
+EmerContactPost: "CTO"
+EmerContactTel: "22957558"
+EmerContactFax: "22957554"
+EmerContactEmail: "enmsteams4@gmail.com"
+EmerContactAddress: "UAT Test4"
+EmerContactAftn: "Aeronautical Fixed Telecommunications Network"

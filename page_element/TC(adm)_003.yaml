@@ -1,0 +1,55 @@
+
+Logout: "xpath==//*[@id='app']/div/div/div[1]/div/div/div[2]/i[2]"
+Logout_Yes: "xpath==//span[contains(.,'Yes')]"
+
+UploadDocumentButton: "xpath==//*[@id='app']/div/div/section/div/div[2]/div[1]/div[2]/button[1]"
+
+DocumentType: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/div/form/div[1]/div/div/div/div/input"
+RegistrationMark: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/div/form/div[2]/div[1]/div/div/div/div/input"
+AircraftType(IATA): "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/div/form/div[2]/div[2]/div/div/div/div/div[1]/input"
+AircraftType(IATA)Label: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/div/form/div[2]/div[2]/div/div/label"
+Remarks: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/div/form/div[2]/div[8]/div/div/div/div/textarea"
+
+SelectDocument: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/div/div[1]/div[1]/div/div/input"
+
+Attach: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/div/div[2]/button[2]"
+AttachOk: "xpath==/html/body/div[4]/div/div[3]/button"
+
+Update: "xpath==//*[@id='app']/div/div/section/div/div[2]/div[2]/div/div[3]/table/tbody/tr[2]/td[14]/div/div/button[1]"
+UpdateRegistrationMark: "xpath==/html/body/div[4]/div/div[2]/div[1]/form/div[2]/div/div/div/div/input"
+
+UpdateAircraftType(IATA): "xpath==/html/body/div[4]/div/div[2]/div[1]/form/div[3]/div/div/div/div/div[1]/input"
+UpdateAircraftType(IATA)Label: "xpath==/html/body/div[4]/div/div[2]/div[1]/form/div[3]/div/div/label"
+UpdateRemarks: "xpath==/html/body/div[4]/div/div[2]/div[1]/form/div[9]/div/div/div/div/textarea"
+UpdateButton: "xpath==/html/body/div[4]/div/div[2]/div[1]/div[2]/button[2]"
+UpdateButtonOk: "xpath==/html/body/div[5]/div/div[3]/button"
+
+CheckBox: "xpath==//*[@id='app']/div/div/section/div/div[2]/div[2]/div/div[3]/table/tbody/tr[2]/td[1]/div/label/span"
+
+BatchDownload: "xpath==//*[@id='app']/div/div/section/div/div[2]/div[1]/div[2]/button[2]"
+
+DocumentTypeSearch: "xpath==//*[@id='app']/div/div/section/div/div[1]/div[4]/form/div[1]/div[1]/div/div/div/div[1]/input"
+DocumentTypeSearchLabel: "xpath==//*[@id='app']/div/div/section/div/div[1]/div[4]/form/div[1]/div[1]/div/label"
+Operator(ICAO): "xpath==//*[@id='app']/div/div/section/div/div[1]/div[4]/form/div[1]/div[2]/div/div/div/div[1]/input"
+RegistrationMarkSearch: "xpath==//*[@id='app']/div/div/section/div/div[1]/div[4]/form/div[2]/div[2]/div/div/div/input"
+FileName: "xpath==//*[@id='app']/div/div/section/div/div[1]/div[4]/form/div[2]/div[1]/div/div/div/input"
+RemarksSearch: "xpath==//*[@id='app']/div/div/section/div/div[1]/div[4]/form/div[3]/div[1]/div/div/div/input"
+CurrentValid: "xpath==//*[@id='app']/div/div/section/div/div[1]/div[4]/form/div[3]/div[3]/div/div/div/div/input"
+CurrentValidSelect: "xpath==/html/body/div[5]/div[1]/div[1]/ul/li[2]"
+Status: "xpath==//*[@id='app']/div/div/section/div/div[1]/div[4]/form/div[4]/div[2]/div/div/div/div/input"
+Search: "xpath==//*[@id='app']/div/div/section/div/div[1]/div[4]/form/div[5]/div/button[2]"
+CheckBoxSearch: "xpath==//*[@id='app']/div/div/section/div/div[2]/div[2]/div/div[3]/table/tbody/tr[2]/td[1]/div/label/span/span"
+MarkReceive: "xpath==//*[@id='app']/div/div/section/div/div[2]/div[1]/div[2]/button[3]"
+MarkReceiveOk: "xpath==/html/body/div[6]/div/div[3]/button"
+
+SubjectContains: "xpath==//*[@id='app']/div/div/section/div/div[1]/div/div[3]/div[1]/form/div[1]/div[1]/div/div/div/input"
+Home: "xpath==//*[@id='app']/div/div/div[1]/div/div/div[2]/i[1]"
+Message: "xpath==//*[@id='app']/div/div/section/div/div[4]/label[2]"
+AdvancedSearch: "xpath==//*[@id='app']/div/div/section/div/div[1]/div/div[2]/a/span"
+LeaseAircraft: "xpath==//*[@id='app']/div/div/section/div/div[5]/div/div[3]/div[1]/form/div[5]/div/div/div/label[11]"
+SearchButton: "xpath==//*[@id='app']/div/div/section/div/div[1]/div/div[3]/div[1]/form/div[6]/div[2]/div/div/button[2]"
+Subject: "xpath==//*[@id='app']/div/div/section/div/div[1]/div/div[3]/div[2]/div[3]/table/tbody/tr[1]/td[4]/div/a[1]/span[1]"
+ReferenceNo: "xpath==//*[@id='app']/div/div/section/div/div[6]/div[1]/div/div[2]/form/div[5]/div/div/a/span"
+
+OrderBy: "xpath==//*[@id='app']/div/div/section/div/div[5]/div/div[3]/div[2]/div[2]/table/thead/tr/th[7]/div/span/i[1]"
+Discard: "xpath==//*[@id='app']/div/div/section/div/div[2]/div[1]/div/div[3]/div/div/div[2]/button[1]"

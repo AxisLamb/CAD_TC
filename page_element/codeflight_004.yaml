@@ -1,0 +1,17 @@
+# logout
+Logout: "xpath==//i[contains(@class, 'el-icon-caret-bottom')]"
+Logout_Yes: "xpath==//span[contains(.,'Yes')]"
+
+# add a new business party
+Add: "xpath==//button[contains(span,'Add')]"
+Service_Type: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div/div[2]/form/div[1]/div/div/input"
+English_Description: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div/div[2]/form/div[2]/div/div/textarea"
+Custom_Description: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div/div[2]/form/div[4]/div/div/input"
+Remarks: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div/div[2]/form/div[6]/div/div/textarea"
+Save: "xpath==//button[contains(span,'Save')]"
+SaveOk: "xpath==/html/body/div[2]/div/div[3]/button"
+
+Sort: "xpath==//*[@id='app']/div/div/section/div/div[1]/div/div[2]/table/thead/tr/th[2]/div/span[2]/i[2]"
+Select_Record: "xpath==//*[@id='app']/div/div/section/div/div[1]/div/div[3]/table/tbody/tr[1]"
+Delete: "xpath==//button[contains(span,'Delete')]"
+Click_Yes: "xpath==//button[contains(span,'Yes')]"

@@ -1,0 +1,9 @@
+#Test Values
+Officer_LoginName: "OFFICER1"
+Officer_Password: "12345678a"
+Email_Address: "testcreate@pccw.com"
+Operator_ICAO: "8AA"
+Operator_Nationality: "Philippines"
+Name2: "OPTR"
+Description: "Airline Group"
+New_Password: "1234567a"

@@ -1,0 +1,12 @@
+# Test Values
+Officer_LoginName: "OFFICER1"
+Officer_Password: "12345678a"
+
+#Create User Account
+Operator : "AHK"
+LoginUsername : "AHK8AAAGENT"
+Name : "8AATESTER"
+EmailAddress : "8AATESTER@gmail.com"
+ApplicationType : "All"
+FunctionGroup : "OPTR"
+NewPassword : "12345678a"

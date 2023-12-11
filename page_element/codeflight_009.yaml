@@ -1,0 +1,25 @@
+# new add airline operator
+AddButton: "xpath==//*[@id='app']/div/div/section/div/div[4]/button[2]"
+OperatorCode(ICAO): "xpath==//*[@id='app']/div/div/section/div/div[5]/div/div[2]/form/div[1]/div[1]/div/div/div/input"
+OperatorCode(IATA): "xpath==//*[@id='app']/div/div/section/div/div[5]/div/div[2]/form/div[2]/div/div/div/div/input"
+OperatorName: "xpath==//*[@id='app']/div/div/section/div/div[5]/div/div[2]/form/div[3]/div[5]/div/div/textarea"
+Remarks: "xpath==//*[@id='app']/div/div/section/div/div[5]/div/div[2]/form/div[3]/div[7]/div/div/textarea"
+SaveAirline: "xpath==//*[@id='app']/div/div/section/div/div[5]/div/div[2]/form/div[4]/button[3]"
+
+#view
+Operator(ICAO)_input: "xpath==//*[@id='app']/div/div/section/div/form/div/div[1]/div[2]/div[1]/div/div/div/div[1]/input"
+Operator(ICAO)_select: "xpath==//*[@id='app']/div/div/section/div/form/div/div[1]/div[2]/div[1]/div/div/div/div[1]/span/span/i"
+LeaveApplication: "xpath==/html/body/div[4]/div/div[3]/button[2]"
+CleanOperator: "xpath==//*[@id='app']/div/div/section/div/form/div/div[1]/div[2]/div[1]/div/div/div/div/span/span/i"
+
+# delete airline operator
+AdvancedSearch: "xpath==//*[@id='app']/div/div/section/div/h4"
+Operator(IATA)_search_input: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div[1]/div/div/div[1]/input"
+Operator(IATA)_search_select: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div[1]/div/div/div[2]/span/span/i"
+OnclickWrite: "xpath==//*[@id='app']/div/div/section/div/form/div[1]/div[3]/div/div/textarea"
+Search: "xpath==//*[@id='app']/div/div/section/div/form/div[2]/button[2]"
+AirlineOperatorView: "xpath==//*[@id='app']/div/div/section/div/div[3]/div/div[3]/table/tbody/tr/td[1]"
+DeleteAirline: "xpath==//*[@id='app']/div/div/section/div/div[5]/div/div[2]/form/div[4]/button[2]"
+
+#logout
+Logout_Yes: "xpath==//span[contains(.,'Yes')]"

@@ -1,0 +1,11 @@
+# Test User Values
+OfficerLoginName: "OFFICER1"
+OfficerPassword: "12345678a"
+
+Search_Registration_Mark: "MARKTEST01"
+Create_Registration_Mark: "MARKTEST01"
+Create_Operator_ICAO: "AAA"
+Create_Aircrarft_Type_IATA: "1AA"
+
+
+
