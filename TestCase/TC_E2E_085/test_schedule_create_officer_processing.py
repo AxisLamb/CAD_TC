@@ -1,20 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 
-import pytest
 import random
+
 import allure
+import pytest
 from selenium.webdriver.common.keys import Keys
 
 from common.readconfig import ini
-from common.readvalue import ElementValue
-from page_object.LoginPage import LoginPage
-from page.webpage import sleep
 from common.readelement import Element
-from utils.logger import log
+from common.readvalue import ElementValue
+from page.webpage import sleep
+from page_object.LoginPage import LoginPage
 
 flight = Element('TC(E2E)-085')
 flightvalue = ElementValue('TC(E2E)-085value')
+cad_account = ElementValue('cad_account')
 
 
 @allure.feature(
@@ -37,8 +38,8 @@ class TestScheduleCreateAndOfficerProcessing:
             login.is_click(flight["Logout_Yes"])
         elements = drivers.find_elements_by_xpath("//button[contains(span,'Login ')]")
         if len(elements) > 0:
-            login.input_user_name(flightvalue['CpaOfficerLoginName'])
-            login.input_user_password(flightvalue['CpaOfficerPassword'])
+            login.input_user_name(cad_account['CpaOfficerLoginName'])
+            login.input_user_password(cad_account['CpaOfficerPassword'])
             login.click_login_button()
         # 跳转到Code Table ->Location->Airport页面
         sleep(5)  # 页面加载速度慢，恢复后可删除
@@ -172,7 +173,14 @@ class TestScheduleCreateAndOfficerProcessing:
         sleep(1)
         login.is_click(flight['Submit1'])
         sleep(5)
-        drivers.find_element_by_class_name("testConfirmButtonClass016").click()
+        try:
+            login.is_click("xpath==//button[contains(span,'OK')]")
+        except:
+            print('No OK Button')
+        try:
+            drivers.find_element_by_class_name("testConfirmButtonClass016").click()
+        except:
+            print('No OK Button 02')
         sleep(1)
         login.get_url(ini.url + "#/View/Messages")
         sleep(1)
@@ -180,8 +188,8 @@ class TestScheduleCreateAndOfficerProcessing:
         # 从 CPATEST03用户切换到officer1用户
         login.is_click(flight["Logout"])
         login.is_click(flight["Logout_Yes"])
-        login.input_user_name(flightvalue['OfficerLoginName'])
-        login.input_user_password(flightvalue['OfficerPassword'])
+        login.input_user_name(cad_account['OfficerLoginName'])
+        login.input_user_password(cad_account['OfficerPassword'])
         login.click_login_button()
 
         # 跳转到View->Messages页面
@@ -189,7 +197,7 @@ class TestScheduleCreateAndOfficerProcessing:
         login.get_url(ini.url + "#/View/Messages")
         login.is_click(flight['ViewMessages_AdvancedSearch'])
         sleep(1)
-        login.input_text(flight['ViewMessages_Sender'], "CPATEST03")
+        login.input_text(flight['ViewMessages_Sender'], cad_account['CpaOfficerLoginName'])
         sleep(1)
         login.is_click(flight['ApplicationType_AllCargo'])
         sleep(1)
@@ -213,8 +221,8 @@ class TestScheduleCreateAndOfficerProcessing:
         # 从 Officer1用户切换到CPATEST03用户
         login.is_click(flight["Logout"])
         login.is_click(flight["Logout_Yes"])
-        login.input_user_name(flightvalue['CpaOfficerLoginName'])
-        login.input_user_password(flightvalue['CpaOfficerPassword'])
+        login.input_user_name(cad_account['CpaOfficerLoginName'])
+        login.input_user_password(cad_account['CpaOfficerPassword'])
         login.click_login_button()
         # 跳转到/ApplicationView/ScheduleChange/FlightSchedule页面
 
@@ -336,8 +344,8 @@ class TestScheduleCreateAndOfficerProcessing:
         login.is_click(flight["Logout"])
         login.is_click(flight["Logout_Yes"])
         sleep(5)
-        login.input_user_name(flightvalue['OfficerLoginName'])
-        login.input_user_password(flightvalue['OfficerPassword'])
+        login.input_user_name(cad_account['OfficerLoginName'])
+        login.input_user_password(cad_account['OfficerPassword'])
         login.click_login_button()
         # 跳转到View->Messages页面
         # sleep(15) # 页面加载速度慢，恢复后可删除
@@ -345,7 +353,7 @@ class TestScheduleCreateAndOfficerProcessing:
         sleep(5)
         login.is_click(flight['ViewMessages_AdvancedSearch'])
         sleep(5)
-        login.input_text(flight['ViewMessages_Sender'], flightvalue['CpaOfficerLoginName'])
+        login.input_text(flight['ViewMessages_Sender'], cad_account['CpaOfficerLoginName'])
         sleep(5)
         login.is_click(flight['ViewMessages_ApplicationType'])
         sleep(5)
@@ -388,8 +396,8 @@ class TestScheduleCreateAndOfficerProcessing:
         # 从 Officer1用户切换到CPATEST03用户
         login.is_click(flight["Logout"])
         login.is_click(flight["Logout_Yes"])
-        login.input_user_name(flightvalue['CpaOfficerLoginName'])
-        login.input_user_password(flightvalue['CpaOfficerPassword'])
+        login.input_user_name(cad_account['CpaOfficerLoginName'])
+        login.input_user_password(cad_account['CpaOfficerPassword'])
         login.click_login_button()
         # 跳转到View->Messages页面
         sleep(5) # 页面加载速度慢，恢复后可删除

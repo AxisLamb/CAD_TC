@@ -246,6 +246,11 @@ class TestTrafficRightsRulesApprove:
         # step20
         login.is_click(flight['Submit2'])
         sleep(5)
+        try:
+            login.is_click(flight['Proceed'])
+            sleep(3)
+        except:
+            print("Proceed button not exist")
         login.is_click(flight['Submit2_ok'])
         sleep(2)
 

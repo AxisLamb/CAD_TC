@@ -1,8 +1,8 @@
 # Test Values
-OfficerLoginName: "OFFICER1"
-OfficerPassword: "12345678a"
-CpaOfficerLoginName: "CPATEST03"
-CpaOfficerPassword: "12345678a"
+#OfficerLoginName: "OFFICER1"
+#OfficerPassword: "12345678a"
+#CpaOfficerLoginName: "CPATEST03"
+#CpaOfficerPassword: "12345678a"
 
 Search_FlightNo1: "CPA06012"
 Search_FlightNo2: "CPA06012"
