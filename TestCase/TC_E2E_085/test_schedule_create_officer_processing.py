@@ -173,14 +173,7 @@ class TestScheduleCreateAndOfficerProcessing:
         sleep(1)
         login.is_click(flight['Submit1'])
         sleep(5)
-        try:
-            login.is_click("xpath==//button[contains(span,'OK')]")
-        except:
-            print('No OK Button')
-        try:
-            drivers.find_element_by_class_name("testConfirmButtonClass016").click()
-        except:
-            print('No OK Button 02')
+        drivers.find_element_by_class_name("testConfirmButtonClass016").click()
         sleep(1)
         login.get_url(ini.url + "#/View/Messages")
         sleep(1)

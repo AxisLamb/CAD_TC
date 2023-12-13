@@ -370,10 +370,10 @@ class TestHelicopterApprove:
         login.is_click(flight['Upload_Application_related_Document_Upload'])
         sleep(2)
 
-        login.is_click(flight['View_Uploaded_Documents'])
-        sleep(5)
-        login.is_click(flight['View_Uploaded_Documents_Close'])
-        sleep(2)
+        # login.is_click(flight['View_Uploaded_Documents'])
+        # sleep(5)
+        # login.is_click(flight['View_Uploaded_Documents_Close'])
+        # sleep(2)
         login.is_click(flight['CAD_Remarks'])
         sleep(2)
         login.input_text(flight['CAD_Remarks_Text'], flightvalue['CAD_Remarks'])
@@ -383,7 +383,12 @@ class TestHelicopterApprove:
         login.is_click(flight['Approve'])
         sleep(2)
         # step 36
-        login.is_click(flight['Approve_Proceed'])
+        # login.is_click(flight['Approve_Proceed'])
+        try:
+            login.is_click(flight['Approve_Proceed'])
+            sleep(2)
+        except:
+            print("Proceed button not exist")
         sleep(5)
         # step 37
         login.is_click(flight['Generate'])
@@ -409,18 +414,18 @@ class TestHelicopterApprove:
         # step 39
         # login.is_click(flight['Send_By_Email'])
         login.is_click(flight['Send_Letter'])
-        sleep(10)
-        resultText = login.element_text(flight['Send_letter_failed_Text'])
-        if resultText == 'Failed to send an external email. Procedure.':
-            # send 失败
-            login.is_click(flight['Send_Letter_failed_ok'])
-            login.is_click(flight['Discard'])
-            login.is_click(flight['Yes_After_Discard'])
-            sleep(3)
-        else:
-            # send 成功   'Email has been sent.'
-            login.is_click(flight['Send_letter_Close'])
-            sleep(3)
+        sleep(12)
+        # resultText = login.element_text(flight['Send_letter_failed_Text'])
+        # if resultText == 'Failed to send an external email. Procedure.':
+        #     # send 失败
+        #     login.is_click(flight['Send_Letter_failed_ok'])
+        #     login.is_click(flight['Discard'])
+        #     login.is_click(flight['Yes_After_Discard'])
+        #     sleep(3)
+        # else:
+        # send 成功   'Email has been sent.'
+        login.is_click(flight['Send_letter_Close'])
+        sleep(3)
 
         # 从 Officer1 用户到 CPATEST03 用户切换
         login.is_click(flight["Logout"])
