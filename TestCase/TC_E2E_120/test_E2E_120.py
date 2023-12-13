@@ -55,21 +55,35 @@ class TestFlight:
         login.is_click(data['HelicopterApplication'])
         sleep(3)
         login.is_click(data['LocalHandlingAgent'])
+        sleep(1)
         login.is_click(data['LocalHandlingAgent_CPA'])
+        sleep(1)
         login.input_text(data['RegistrationMark'], value['RegistrationMark'])
+        sleep(1)
         login.is_click(data['LocalHandlingAgent'])
+        sleep(1)
         login.is_click(data['AircraftType'])
+        sleep(1)
         login.is_click(data['AircraftType_9A1'])
+        sleep(1)
         login.is_click(data['NoiseStandard'])
+        sleep(1)
         login.input_text(data['PurposeOfFlight'], value['PurposeOfFlight'])
+        sleep(1)
         login.input_text(data['NoOfCrew'], value['NoOfCrew'])
+        sleep(1)
         login.is_click(data['AircraftFittedWithTCAS'])
 
         login.is_click(data['ServiceType1'])
+        sleep(1)
         login.is_click(data['ServiceType1_Ferry'])
+        sleep(1)
         login.input_text(data['FlightNo1'], "CPA01"+temp)
+        sleep(1)
         login.is_click(data['In-outFlightDiff1'])
+        sleep(1)
         login.is_click(data['In-outFlightDiff1_NA'])
+        sleep(1)
         login.input_text(data['OperationDate1'], value['OperationDate1'])
         login.is_click(data['NoOfPax1'])
         login.input_text(data['NoOfPax1'], value['NoOfPax1'])
@@ -79,8 +93,11 @@ class TestFlight:
         login.input_text(data['LocalTimeSTD1'], value['LocalTimeSTD1'])
         login.input_text(data['FlightScheduleRemarks1'], value['FlightScheduleRemarks1'])
 
+        sleep(1)
         login.is_click(data['ServiceType2'])
+        sleep(1)
         login.is_click(data['ServiceType2_Ferry'])
+        sleep(1)
         login.input_text(data['FlightNo2'], "CPA02"+temp)
         login.is_click(data['In-outFlightDiff2'])
         login.is_click(data['In-outFlightDiff2_NA'])
@@ -94,7 +111,9 @@ class TestFlight:
         login.input_text(data['FlightScheduleRemarks2'], value['FlightScheduleRemarks2'])
 
         login.is_click(data['ServiceType3'])
+        sleep(1)
         login.is_click(data['ServiceType3_GA'])
+        sleep(1)
         login.input_text(data['FlightNo3'], "CPA03"+temp)
         login.is_click(data['In-outFlightDiff3'])
         login.is_click(data['In-outFlightDiff3_NA'])
@@ -108,7 +127,9 @@ class TestFlight:
         login.input_text(data['FlightScheduleRemarks3'], value['FlightScheduleRemarks3'])
 
         login.is_click(data['ServiceType4'])
+        sleep(1)
         login.is_click(data['ServiceType4_GA'])
+        sleep(1)
         login.input_text(data['FlightNo4'], "CPA04"+temp)
         login.is_click(data['In-outFlightDiff4'])
         login.is_click(data['In-outFlightDiff4_NA'])
@@ -122,7 +143,9 @@ class TestFlight:
         login.input_text(data['FlightScheduleRemarks4'], value['FlightScheduleRemarks4'])
 
         login.is_click(data['ServiceType5'])
+        sleep(1)
         login.is_click(data['ServiceType5_TechStop'])
+        sleep(1)
         login.input_text(data['FlightNo5'], "CPA05"+temp)
         login.is_click(data['In-outFlightDiff5'])
         login.is_click(data['In-outFlightDiff5_NA'])
@@ -136,7 +159,9 @@ class TestFlight:
         login.input_text(data['FlightScheduleRemarks5'], value['FlightScheduleRemarks5'])
 
         login.is_click(data['ServiceType6'])
+        sleep(1)
         login.is_click(data['ServiceType6_TechStop'])
+        sleep(1)
         login.input_text(data['FlightNo6'], "CPA06"+temp)
         login.is_click(data['In-outFlightDiff6'])
         login.is_click(data['In-outFlightDiff6_NA'])
@@ -150,7 +175,9 @@ class TestFlight:
         login.input_text(data['FlightScheduleRemarks6'], value['FlightScheduleRemarks6'])
 
         login.is_click(data['ServiceType7'])
+        sleep(1)
         login.is_click(data['ServiceType7_TestFlight'])
+        sleep(1)
         login.input_text(data['FlightNo7'], "CPA07"+temp)
         login.is_click(data['In-outFlightDiff7'])
         login.is_click(data['In-outFlightDiff7_NA'])
@@ -163,7 +190,9 @@ class TestFlight:
         login.input_text(data['FlightScheduleRemarks7'], value['FlightScheduleRemarks7'])
 
         login.is_click(data['ServiceType8'])
+        sleep(1)
         login.is_click(data['ServiceType8_TestFlight'])
+        sleep(1)
         login.input_text(data['FlightNo8'], "CPA08"+temp)
         login.is_click(data['In-outFlightDiff8'])
         login.is_click(data['In-outFlightDiff8_NA'])
@@ -175,7 +204,9 @@ class TestFlight:
         login.input_text(data['FlightScheduleRemarks8'], value['FlightScheduleRemarks8'])
 
         login.is_click(data['ServiceType9'])
+        sleep(1)
         login.is_click(data['ServiceType9_Training'])
+        sleep(1)
         login.input_text(data['FlightNo9'], "CPA09"+temp)
         login.is_click(data['In-outFlightDiff9'])
         login.is_click(data['In-outFlightDiff9_NA'])
@@ -189,7 +220,9 @@ class TestFlight:
         login.input_text(data['FlightScheduleRemarks9'], value['FlightScheduleRemarks9'])
 
         login.is_click(data['ServiceType10'])
+        sleep(1)
         login.is_click(data['ServiceType10_Training'])
+        sleep(1)
         login.input_text(data['FlightNo10'], "CPA10"+temp)
         login.is_click(data['In-outFlightDiff10'])
         login.is_click(data['In-outFlightDiff10_NA'])
@@ -219,7 +252,7 @@ class TestFlight:
 
         # step 3
         login.is_click(data['SaveAsTemplate'])
-        login.input_text(data['TemplateName'], "template" + temp)
+        login.input_text(data['TemplateName'], "Template" + str(random.uniform(1, 1000)))
         login.is_click(data['Template_Save'])
 
         login.is_click(data['ConfirmConditions'])
@@ -252,29 +285,22 @@ class TestFlight:
           login.input_user_password(codeshare_account['OfficerPassword'])
           login.click_login_button()
         WebDriverWait(drivers, 40, 0.8).until(EC.presence_of_element_located((By.TAG_NAME, 'h2')))
-        sleep(2)
+        sleep(5)
         # step 9&10 跳转到View->Messages页面
         #login.get_url(value['Url_ViewMessages'])
-        login.get_url(ini.url + "#/View/Messages")
+
+        # login.get_url(ini.url + "#/View/Messages")
         # 搜索记录
-    #    login.is_click(data['AdvancedSearch'])
-        '''
-        login.is_click(data['ApplicationType_PrivateNonRevenue'])
-        login.is_click(data['AircraftCategory_Helicopter'])
-        login.is_click(data['SearchButton'])
-        '''
-
-        login.is_click(data['AdvancedSearch'])
-        login.input_text(data['Sender'], value['Sender'])
-
-        login.is_click(data['ApplicationType_PrivateNonRevenue'])
-        login.is_click(data['SearchButton'])
-        sleep(3)
-        drivers.find_element_by_id("test0").click()
-        # step 11
-        #login.is_click(data['ReferenceNo_Officer'])
-
-        sleep(10)
+        # login.is_click(data['AdvancedSearch'])
+        # login.input_text(data['Sender'], value['Sender'])
+        # login.is_click(data['ApplicationType_PrivateNonRevenue'])
+        # login.is_click(data['SearchButton'])
+        # sleep(5)
+        # # drivers.find_element_by_id("test0").click()
+        # # step 11
+        # login.is_click(data['ReferenceNo_Officer'])
+        #
+        # sleep(5)
 
         # step 12-20 TS Officer不用管
 
