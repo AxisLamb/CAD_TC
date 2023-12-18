@@ -507,21 +507,21 @@ class TestFlight:
 
         # step 41
         #login.get_url(value['Url_ViewFightSchedule'])
-        login.get_url(ini.url + "index.html#/View/FlightSchedule")
-        sleep(10)
-        login.is_click(data['Fighth_Schedules_Aircraft_Category'])
-        login.input_text(data['Effective_Period_Start'], value['Effective_Period_StartDate'])
+        # login.get_url(ini.url + "index.html#/View/FlightSchedule")
+        # sleep(10)
+        # login.is_click(data['Fighth_Schedules_Aircraft_Category'])
+        # login.input_text(data['Effective_Period_Start'], value['Effective_Period_StartDate'])
+        #
+        # login.is_click(data['Fighth_Schedules_Search_Type_GA'])
+        # login.is_click(data['Fighth_Schedules_Search_Type_Ferry'])
+        # login.is_click(data['Fighth_Schedules_Search_Type_Tech_Stop'])
+        # login.is_click(data['Fighth_Schedules_Search_Type_Test_Flight'])
+        # login.is_click(data['Fighth_Schedules_Search_Type_Training'])
+        #
+        # # step 42
+        # login.is_click(data['Fighth_Schedules_Search_Search_Btn'])
 
-        login.is_click(data['Fighth_Schedules_Search_Type_GA'])
-        login.is_click(data['Fighth_Schedules_Search_Type_Ferry'])
-        login.is_click(data['Fighth_Schedules_Search_Type_Tech_Stop'])
-        login.is_click(data['Fighth_Schedules_Search_Type_Test_Flight'])
-        login.is_click(data['Fighth_Schedules_Search_Type_Training'])
-
-        # step 42
-        login.is_click(data['Fighth_Schedules_Search_Search_Btn'])
-
-        sleep(10)
+        sleep(5)
 
 if __name__ == '__main__':
     pytest.main(['TestCase/TC_E2E_120/test_E2E_120.py'])

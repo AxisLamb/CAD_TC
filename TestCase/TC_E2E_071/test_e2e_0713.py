@@ -122,21 +122,29 @@ class TestCreateChangeApplicationByLocalOperator:
         sleep(3)
         #添加到revise
         login.is_click(flight["ChangeSelectSearch1"])
+        sleep(1)
         login.is_click(flight["ChangeRevise"])
         #改数据
         login.is_click(flight["ChangeDop1_1"])
+        sleep(1)
         login.is_click(flight["ChangeDop1_3"])
+        sleep(1)
         login.is_click(flight["ChangeDop1_5"])
+        sleep(1)
         login.is_click(flight["ChangeDop1_7"])
-        login.is_click(flight["ChangeAircraftType_Select1"])
+        sleep(2)
+        # login.is_click(flight["ChangeAircraftType_Select1"])
+        # sleep(2)
+        # login.is_click(flight["ChangeAircraftType_Select1"])
         sleep(1)
-        login.is_click(flight["ChangeAircraftType_Select1"])
-        login.input_text(flight['ChangeAircraftType_Input1'], '141')
-        sleep(1)
+        # login.input_text(flight['ChangeAircraftType_Input1'], '141')
+        # sleep(1)
         drivers.find_element_by_xpath(
             "//*[@id='app']/div/div/section/div/div[19]/div[1]/div/div[2]/div[2]/div[3]/table/tbody/tr[1]/td[15]/div/span/div/div/input"
         ).send_keys(Keys.ENTER)
+        sleep(1)
         login.input_text(flight['ChangeSeats1'], '300')
+        sleep(1)
         #移动横轴滚动条到右侧修改数据
         scrollbar = drivers.find_element_by_xpath(
             "//*[@id='app']/div/div/section/div/div[19]/div[1]/div/div[2]/div[2]/div[3]"

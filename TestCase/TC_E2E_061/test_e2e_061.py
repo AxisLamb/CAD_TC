@@ -254,17 +254,19 @@ class TestFlight:
         # step 8&9 跳转到view-messages页面
         #login.get_url(value['Url_ViewMessages'])
         login.get_url(ini.url + "#/View/Messages")
+        sleep(2)
         # 搜索记录
         login.is_click(data['AdvancedSearch'])
+        sleep(2)
         login.input_text(data['Sender'],codeshare_account['CpaOfficerLoginName'])
-
+        sleep(1)
         login.is_click(data['ApplicationType_PrivateNonRevenue'])
         sleep(2)
         login.is_click(data['SearchButton'])
         sleep(2)
         # step 10
         login.is_click(data['ReferenceNo_Officer'])
-        sleep(2)
+        sleep(6)
 
         # step 11&12
         login.is_click(data['ModifyBasicInformation'])
@@ -274,9 +276,11 @@ class TestFlight:
         login.is_click(data['ModifyBasicInformation_AircraftType'])
         sleep(2)
         login.is_click(data['ModifyBasicInformation_AircraftType_773'])
+        sleep(1)
         login.input_text(data['ModifyBasicInformation_PurposeOfFlight'], value['ModifyBasicInformation_PurposeOfFlight'])
+        sleep(1)
         login.input_text(data['ModifyBasicInformation_NoOfCrew'], value['ModifyBasicInformation_NoOfCrew'])
-
+        sleep(2)
         # step 13
         login.is_click(data['SelectModifyRecord'])
         sleep(2)
