@@ -77,14 +77,15 @@ class TestChangeProcessApplicationByOfficer:
         login.is_click(flight['DetailReviseDop1_4'])
         sleep(1)
         login.is_click(flight['DetailReviseDop1_5'])
-        sleep(1)
+        sleep(3)
         login.is_click(flight['DetailReviseDop1_6'])
-        sleep(1)
-        login.is_click(flight['DetailReviseAircraft_Select_1'])
-        sleep(1)
-        login.is_click(flight['DetailReviseAircraft_Select_1'])
-        login.input_text(flight['DetailReviseAircraft_Input_1'], "143")
-        sleep(1)
+        # sleep(3)
+        # login.is_click(flight['DetailReviseAircraft_Select_1'])
+        # sleep(3)
+        # login.is_click(flight['DetailReviseAircraft_Select_1'])
+        # sleep(3)
+        # login.input_text(flight['DetailReviseAircraft_Input_1'], "143")
+        # sleep(3)
         drivers.find_element_by_xpath(
             "//*[@id='app']/div/div/section/div/div[3]/div[1]/div/div[2]/div/div[3]/table/tbody/tr[1]/td[14]/div/span/div/div/input"
         ).send_keys(Keys.ENTER)
@@ -93,7 +94,7 @@ class TestChangeProcessApplicationByOfficer:
         scrollbar = drivers.find_element_by_xpath(
             "//*[@id='app']/div/div/section/div/div[3]/div[1]/div/div[2]/div/div[3]"
         )
-        sleep(1)
+        sleep(2)
         drivers.execute_script("arguments[0].scrollLeft = arguments[0].scrollWidth", scrollbar)
         sleep(3)
         login.input_text(flight['DetailReviseSTD_1'], "1045")

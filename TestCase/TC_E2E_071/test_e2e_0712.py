@@ -63,12 +63,14 @@ class TestProcessApplicationByOfficer:
         # assert drivers.find_element_by_xpath("//*[@id='app']/div/div/section/div/div[1]/form/div/div[1]/div/div/form/div[1]/div[1]/div/div").text == str(refno)
         # 审批
         login.is_click(flight['DetailApproval'])
+        sleep(2)
         # Recommendation
         login.is_click(flight['ApprovalRecommendation'])
-        sleep(1)
+        sleep(3)
         login.is_click(flight['ApprovalRecommendationConfirm'])
+        sleep(3)
         login.is_click(flight['ApprovalSucceedPopupOK'])
-        sleep(1)
+        sleep(3)
         # generate
         # login.is_click(flight['ApprovalGenerate'])
         # sleep(12)
