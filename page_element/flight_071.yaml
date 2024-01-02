@@ -475,9 +475,9 @@ ChangeUploadSaveBTU: "xpath==//*[@id='testUploadButton']"
 ChangeSaveAsDraft: "xpath==//*[@id='app']/div/div/section/div/div[18]/div[1]/button"
 ChangeConfirm: "xpath==//*[@id='app']/div/div/section/div/div[17]/div/label/span/span"
 ChangePreviewAndSubmit: "xpath==//*[@id='app']/div/div/section/div/div[18]/div[2]/button[2]"
-ChangePreviewAndSubmitUpdate: "xpath==//*[@id='app']/div/div/section/div/form/div/div[2]/div[7]/div[2]/button[2]"
+ChangePreviewAndSubmitUpdate: "xpath==//*[@class='el-col el-col-7']//button[span[contains(text(), 'Preview and Submit')]]"
 ChangeSubmit: "xpath==//*[@id='app']/div/div/section/div/div[21]/div/div[2]/form/div/div[2]/div[4]/div/button[4]"
-ChangeSubmitUpdate: "xpath==//*[@id='app']/div/div/section/div/div[1]/div/div[2]/form/div/div[2]/div[3]/div/button[4]"
+ChangeSubmitUpdate: "xpath==//*[@id='testChangeSubmit01']"
 ChangeSubmitOK: "xpath==/html/body/div[2]/div/div[3]/button"
 
 

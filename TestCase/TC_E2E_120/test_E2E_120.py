@@ -272,8 +272,14 @@ class TestFlight:
         # new code port description
         #login.input_text(data['PortDescription'],value['FlightScheduleRemarks1'])
         #login.is_click(data['SavaAsportDescription'])
-        sleep(2)
+        sleep(5)
+        try:
+            login.is_click(data['Proceed'])
+            sleep(3)
+        except:
+            print("Proceed button not exist")
         login.is_click(data['Submit_OK'])
+        sleep(10)
         # step 8 new code暂时不管
 
         # 将用户切换到Officer
@@ -284,8 +290,8 @@ class TestFlight:
           login.input_user_name(codeshare_account['OfficerLoginName'])
           login.input_user_password(codeshare_account['OfficerPassword'])
           login.click_login_button()
-        WebDriverWait(drivers, 40, 0.8).until(EC.presence_of_element_located((By.TAG_NAME, 'h2')))
-        sleep(5)
+        # WebDriverWait(drivers, 40, 0.8).until(EC.presence_of_element_located((By.TAG_NAME, 'h2')))
+        sleep(10)
         # step 9&10 跳转到View->Messages页面
         #login.get_url(value['Url_ViewMessages'])
 

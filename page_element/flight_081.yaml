@@ -368,7 +368,7 @@ To_C1_Revise_Copy: "xpath==//*[@id='app']/div/div/section/div/div[19]/div[1]/div
 
 Remarks_Revise: "xpath==//*[@id='app']/div/div/section/div/div[13]/div/textarea"
 
-Upload_Related_Document: "xpath==//span[contains(.,'Upload application related document')]"
+Upload_Related_Document: "xpath==//span[contains(.,'Upload Application Related Document')]"
 Upload_Application_Related_Documents_Type_input: "xpath==//*[@id='testNewDocumentUpload']"
 Upload_Application_Related_Documents_Expiry_Date: "xpath==//*[@id='testExpiryDate']/input"
 Upload_Application_Related_Documents_Btn: "xpath==//*[@id='testUploadButton']"

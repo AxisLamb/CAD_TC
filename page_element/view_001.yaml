@@ -14,7 +14,7 @@ LocalTime_STD1: "xpath==//*[@id='std 0 1']"
 Remarks1: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[1]/td[20]/div/span/div/textarea"
 
 Remarks: "xpath==//*[@id='app']/div/div/section/div/form/div/div[6]/div/textarea"
-Upload_Application_Related_Documents: "xpath==//button[contains(span, 'Upload application related document')]"
+Upload_Application_Related_Documents: "xpath==//button[contains(span, 'Upload Application Related Document')]"
 Upload_Application_Related_Documents_Type_input: "xpath==//*[@id='testNewDocumentUpload']"
 Upload_Application_Related_Documents_Expiry_Date: "xpath==//*[@id='testExpiryDate']/input"
 Upload_Application_Related_Documents_Btn: "xpath==//*[@id='testUploadButton']"

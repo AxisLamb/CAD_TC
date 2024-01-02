@@ -185,7 +185,7 @@ Remarks_8: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/tab
 
 Remark: "xpath==//*[@id='app']/div/div/section/div/form/div[6]/div/textarea"
 Confirm: "xpath==//*[@id='app']/div/div/section/div/form/div[10]/div/label/span/span"
-PreviewAndSubmit: "xpath==//*[@id='app']/div/div/section/div/form/div[11]/div[2]/button[2]"
+PreviewAndSubmit: "xpath==//button[contains(span, 'Preview and Submit')]"
 Submit: "xpath==//*[@id='app']/div/div/section/div/div[4]/div/div[2]/div/div[1]/form/div/div[2]/div[8]/div[2]/button[3]"
 Submit_ok: "xpath==//button[contains(@class, 'testConfirmButtonClass012')]"
 
@@ -247,7 +247,7 @@ UploadDocType: "xpath==//*[@id='testNewDocumentUpload']"
 UploadExpiryDate: "xpath==//*[@id='testExpiryDate']/input"
 Upload: "xpath==//*[@id='testUploadButton']"
 SaveAsDraft: "xpath==//*[@id='app']/div/div/section/div/div[18]/div[1]/button"
-PreviewAndSubmit2: "xpath==//*[@id='app']/div/div/section/div/form/div/div[2]/div[7]/div[2]/button[2]"
+PreviewAndSubmit2: "xpath==//button[contains(span, 'Preview and Submit')]"
 Submit2: "xpath==//*[@id='testChangeSubmit01']"
 Submit2_ok: "xpath==//button[contains(@class, 'testConfirmButtonClass091')]"
 

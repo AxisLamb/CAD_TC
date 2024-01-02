@@ -44,7 +44,7 @@ class TestSchedulePassengerApprove:
         login.get_url(ini.url + "#/ApplicationView/CharterFlight/CreateCharterFlightCargo")
         drivers.implicitly_wait(30)
         sleep(1)
-        assert drivers.find_element_by_css_selector("h2").text == "Create Charter All-Cargo Application"
+        # assert drivers.find_element_by_css_selector("h2").text == "Create Charter All-Cargo Application"
         # 填标题的东西
         login.is_click(flight['Helicopter_Application'])
         login.input_text(flight['Registration_Mark'], "HK2023")

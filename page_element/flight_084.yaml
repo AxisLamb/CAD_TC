@@ -229,7 +229,7 @@ ScheChangeUpload: "xpath==//*[@id='testUploadButton']"
 
 ScheChangeSaveAsDraft: "xpath==//*[@id='app']/div/div/section/div/div[18]/div[1]/button"
 ScheChangeConfirmCheck: "xpath==//*[@id='app']/div/div/section/div/div[17]/div/label/span/span"
-ScheChangePreviewAndSubmit: "xpath==  //*[@id='app']/div/div/section/div/form/div/div[2]/div[7]/div[2]/button[2]"
+ScheChangePreviewAndSubmit: "xpath==//*[@class='el-col el-col-7']//button[span[contains(text(), 'Preview and Submit')]]"
 ScheChangePrint: "xpath==//*[@id='app']/div/div/section/div/div[21]/div/div[2]/form/div/div[2]/div[3]/div/button[1]"
 ScheChangeSubmit: "xpath==//*[@id='testChangeSubmit01']"
 ScheChangeSubmitIsOk: "xpath=="

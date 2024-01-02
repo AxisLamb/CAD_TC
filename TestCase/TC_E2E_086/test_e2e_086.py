@@ -217,7 +217,12 @@ class TestFlight:
         sleep(3)
         # step 7
         login.is_click(data['Submit'])
-        sleep(3)
+        sleep(8)
+        try:
+            login.is_click(data['Proceed'])
+            sleep(3)
+        except:
+            print("Proceed button not exist")
         login.is_click(data['Submit_OK'])
 
         sleep(30)

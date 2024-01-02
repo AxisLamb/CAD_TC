@@ -238,6 +238,11 @@ class TestFlight:
         # step 7
         login.is_click(data['Submit'])
         sleep(15)
+        try:
+            login.is_click(data['Proceed'])
+            sleep(3)
+        except:
+            print("Proceed button not exist")
         login.is_click(data['Submit_OK'])
         sleep(5)
         # 将用户切换到Officer

@@ -273,7 +273,7 @@ Remarks_10: "xpath==//*[@id='app']/div/div/section/div/form/div[3]/div/div[3]/ta
 
 Remarks: "xpath==//*[@id='app']/div/div/section/div/form/div[6]/div/textarea"
 
-UploadDoc: "xpath==//button[contains(span,'Upload application related document')]"
+UploadDoc: "xpath==//button[contains(span,'Upload Application Related Document')]"
 #UploadDoc: "xpath==//*[@id='app']/div/div/section/div/form/div[7]/div[1]/div[2]/button/span"
 DOC_Type: "xpath==//*[@id='testNewDocumentUpload']"
 Doc_Browser: "xpath==//*[@id='testBrowse']/span"

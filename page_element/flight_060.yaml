@@ -174,7 +174,7 @@ CargoAmount_2: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]
 Route_2: "xpath==//*[@id='app']/div/div/section/div/form/div/div[3]/div[3]/table/tbody/tr[2]/td[14]/div/span/div/input"
 Remarks: "xpath==//*[@id='app']/div/div/section/div/form/div/div[6]/div/textarea"
 #上传文件
-Upload_Related_Documents: "xpath==//button[contains(span,'Upload application related document')]"
+Upload_Related_Documents: "xpath==//button[contains(span,'Upload Application Related Document')]"
 Doc_Type_Select: "xpath==/html/body/div[9]/div/div[2]/form/div[1]/div/div/div/div/div/div[1]/span/span/i"
 Doc_Type_Input: "xpath==//*[@id='testNewDocumentUpload']"
 BrowseButton: "xpath==/html/body/div[9]/div/div[2]/form/div[1]/div/div/div/span/div[2]/div/div/button"

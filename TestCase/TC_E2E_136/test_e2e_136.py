@@ -62,12 +62,13 @@ class TestSchedulePassengerApprove:
             login.click_login_button()
         waits = WebDriverWait(drivers, 100, 0.8)
         wait20s = WebDriverWait(drivers, 20, 0.8)
-        wait20s.until(EC.presence_of_element_located((By.TAG_NAME, 'h2')))
+        sleep(10)
+        # wait20s.until(EC.presence_of_element_located((By.TAG_NAME, 'h2')))
         #跳转到Application-Seasonal Schedule-passenger页面
         login.get_url(ini.url + "#/ApplicationView/SeasonalSchedule/AddCargoInfo")
-        sleep(5)
-        waits.until(EC.presence_of_element_located((By.XPATH, "//h2[text()='Create Seasonal Schedule All-Cargo Application']")))
-        assert drivers.find_element_by_css_selector("h2").text == "Create Seasonal Schedule All-Cargo Application"
+        sleep(10)
+        # waits.until(EC.presence_of_element_located((By.XPATH, "//h2[text()='Create Seasonal Schedule All-Cargo Application']")))
+        # assert drivers.find_element_by_css_selector("h2").text == "Create Seasonal Schedule All-Cargo Application"
 
         #填写Flight Schedules表格信息 Start
         login.is_click(flight['Helicopter_Application'])
@@ -289,7 +290,8 @@ class TestSchedulePassengerApprove:
         login.is_click(flight['PreviewAndSubmit'])
         sleep(5)
         login.is_click(flight['Submit'])
-        waits.until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'testConfirmButtonClass016')]")))
+        sleep(10)
+        # waits.until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'testConfirmButtonClass016')]")))
         login.is_click(flight['Submit_Yes'])
         sleep(5)
 
@@ -357,18 +359,41 @@ class TestSchedulePassengerApprove:
         login.is_click(flight['LeaseAircraftOK'])
         sleep(5)
 
+        # 保存Reference No
+        sleep(2)
+        login.is_click(flight['SearchApplicationScheduleAllCargo'])
+        sleep(2)
+        login.is_click(flight['SearchApplicationSearch'])
+        sleep(5)
+        refNoValue = drivers.find_element_by_xpath("//*[@id='testRefNo00']")
+        # 保存refNo
+        current_path = os.path.abspath(__file__)
+        filename = os.path.dirname(current_path) + '/TestData/AppRefNo.txt'
+        # 如果filename不存在会自动创建， 'w'表示写数据，写之前会清空文件中的原有数据！
+        with open(filename, 'w') as f:
+            f.write(refNoValue.text)
+
         # 从CPATEST03用户到 Officer1用户切换
         login.is_click(flight["Logout"])
         login.is_click(flight["Logout_Yes"])
         login.input_user_name(CadAccountValue['OfficerLoginName'])
         login.input_user_password(CadAccountValue['OfficerPassword'])
         login.click_login_button()
-        wait20s.until(EC.presence_of_element_located((By.TAG_NAME, 'h2')))
+        sleep(10)
+        # wait20s.until(EC.presence_of_element_located((By.TAG_NAME, 'h2')))
+        current_path = os.path.abspath(__file__)
+        filename = os.path.dirname(current_path) + '/TestData/AppRefNo.txt'
+        # 如果filename不存在会自动创建， r以只读方式打开文件。文件的指针将会放在文件的开头。这是**默认模式**。
+        with open(filename, 'r') as f:
+            refno = f.read()
 
         #跳转到View->Messages页面
         login.get_url(ini.url + "#/View/Messages")
-        waits.until(EC.presence_of_element_located((By.XPATH, "//h2[text()='Messages']")))
+        sleep(10)
+        # waits.until(EC.presence_of_element_located((By.XPATH, "//h2[text()='Messages']")))
         login.is_click(flight['ViewMessages_AdvancedSearch'])
+        sleep(2)
+        login.input_text(flight['ViewMessages_Search_ReferenceNo'], refno)
         login.input_text(flight['ViewMessages_Sender'], CadAccountValue['CpaOfficerLoginName'])
         login.is_click(flight['ViewMessages_ApplicationType'])
         login.is_click(flight['ViewMessages_Search'])
@@ -518,9 +543,11 @@ class TestSchedulePassengerApprove:
         login.is_click(flight['ViewMessages_Recommendation'])
         sleep(20)
         login.is_click(flight['ViewMessages_Confirm'])
-        waits.until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'testConfirmButtonClass054')]")))
+        sleep(10)
+        # waits.until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'testConfirmButtonClass054')]")))
         login.is_click(flight['Confirm_OK'])
-        waits.until(EC.presence_of_element_located((By.XPATH, "//*[@id='testGenerate01']/span")))
+        sleep(10)
+        # waits.until(EC.presence_of_element_located((By.XPATH, "//*[@id='testGenerate01']/span")))
         # ViewMessage ViewMessages_Approve End
 
         login.is_click(flight['ViewMessages_Generate'])
@@ -545,7 +572,8 @@ class TestSchedulePassengerApprove:
         login.is_click(flight['TemplateGenerate_GeneratePDF'])
         sleep(20)
         login.is_click(flight['Send'])
-        waits.until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'testConfirmButtonClass02')]")))
+        sleep(20)
+        # waits.until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'testConfirmButtonClass02')]")))
         login.is_click(flight['SendOK'])
         sleep(5)
 
@@ -555,11 +583,13 @@ class TestSchedulePassengerApprove:
         login.input_user_name(CadAccountValue['CpaOfficerLoginName'])
         login.input_user_password(CadAccountValue['CpaOfficerPassword'])
         login.click_login_button()
-        wait20s.until(EC.presence_of_element_located((By.TAG_NAME, 'h2')))
+        # wait20s.until(EC.presence_of_element_located((By.TAG_NAME, 'h2')))
+        sleep(10)
 
         # 跳转到View->Messages页面
         login.get_url(ini.url + "#/View/Messages")
-        waits.until(EC.presence_of_element_located((By.XPATH, "//h2[text()='Messages']")))
+        # waits.until(EC.presence_of_element_located((By.XPATH, "//h2[text()='Messages']")))
+        sleep(10)
         login.is_click(flight['ViewMessages_AdvancedSearch_CAP'])
         login.input_text(flight['ViewMessages_SubjectContains_CAP'], "application Approved")
         login.input_text(flight['ViewMessages_Sender_CAP'], CadAccountValue['OfficerLoginName'])

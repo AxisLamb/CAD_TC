@@ -155,7 +155,7 @@ Step08_Lint2RouteTo: "xpath==//table/tbody/tr[2]/td[15]/div/span/div/input"
 Step08_Lint2Sta: "xpath==//table/tbody/tr[2]/td[16]/div/span/div/input"
 
 Step08_Remarks: "xpath==//a[contains(span,'Remarks')]/parent::div/parent::form/div[6]/div/textarea"
-Step08_UploadRelateDocumentButton: "xpath==//button[contains(span,'Upload application related document')]"
+Step08_UploadRelateDocumentButton: "xpath==//button[contains(span,'Upload Application Related Document')]"
 Step08_UploadRelateDocumentType: "xpath==//*[@id='testNewDocumentUpload']"
 Step08_UploadRelateDocumentSelect: "xpath==//div[contains(label,'Document Type')]/div/div/div/div/span"
 Step08_UploadRelateDocumentInput: "xpath==//*[@id='testNewDocumentUpload']"
