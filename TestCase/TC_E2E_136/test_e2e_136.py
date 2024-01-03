@@ -291,6 +291,11 @@ class TestSchedulePassengerApprove:
         sleep(5)
         login.is_click(flight['Submit'])
         sleep(10)
+        try:
+            login.is_click(flight['Proceed'])
+            sleep(3)
+        except:
+            print("Proceed button not exist")
         # waits.until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'testConfirmButtonClass016')]")))
         login.is_click(flight['Submit_Yes'])
         sleep(5)
